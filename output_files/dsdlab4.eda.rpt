@@ -1,5 +1,5 @@
 EDA Netlist Writer report for dsdlab4
-Thu Mar 23 14:56:55 2017
+Fri Mar 24 15:37:16 2017
 Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
 
 
@@ -36,9 +36,9 @@ applicable agreement for further details.
 +-------------------------------------------------------------------+
 ; EDA Netlist Writer Summary                                        ;
 +---------------------------+---------------------------------------+
-; EDA Netlist Writer Status ; Successful - Thu Mar 23 14:56:55 2017 ;
+; EDA Netlist Writer Status ; Successful - Fri Mar 24 15:37:16 2017 ;
 ; Revision Name             ; dsdlab4                               ;
-; Top-level Entity Name     ; g58_rules_test                        ;
+; Top-level Entity Name     ; g58_lab4_board                        ;
 ; Family                    ; Cyclone II                            ;
 ; Simulation Files Creation ; Successful                            ;
 +---------------------------+---------------------------------------+
@@ -50,8 +50,7 @@ applicable agreement for further details.
 ; Option                                                                                            ; Setting                   ;
 +---------------------------------------------------------------------------------------------------+---------------------------+
 ; Tool Name                                                                                         ; ModelSim-Altera (Verilog) ;
-; Generate netlist for functional simulation only                                                   ; Off                       ;
-; Time scale                                                                                        ; 1 ps                      ;
+; Generate netlist for functional simulation only                                                   ; On                        ;
 ; Truncate long hierarchy paths                                                                     ; Off                       ;
 ; Map illegal HDL characters                                                                        ; Off                       ;
 ; Flatten buses into individual nodes                                                               ; Off                       ;
@@ -66,16 +65,13 @@ applicable agreement for further details.
 +---------------------------------------------------------------------------------------------------+---------------------------+
 
 
-+------------------------------------------------------------------------+
-; Simulation Generated Files                                             ;
-+------------------------------------------------------------------------+
-; Generated Files                                                        ;
-+------------------------------------------------------------------------+
-; C:/Users/Lixuan/Desktop/dsdlab4/simulation/modelsim/dsdlab4.vo         ;
-; C:/Users/Lixuan/Desktop/dsdlab4/simulation/modelsim/dsdlab4_fast.vo    ;
-; C:/Users/Lixuan/Desktop/dsdlab4/simulation/modelsim/dsdlab4_v.sdo      ;
-; C:/Users/Lixuan/Desktop/dsdlab4/simulation/modelsim/dsdlab4_v_fast.sdo ;
-+------------------------------------------------------------------------+
++----------------------------------------------------------------+
+; Simulation Generated Files                                     ;
++----------------------------------------------------------------+
+; Generated Files                                                ;
++----------------------------------------------------------------+
+; C:/Users/Lixuan/Desktop/dsdlab4/simulation/modelsim/dsdlab4.vo ;
++----------------------------------------------------------------+
 
 
 +-----------------------------+
@@ -84,13 +80,13 @@ applicable agreement for further details.
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit EDA Netlist Writer
     Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
-    Info: Processing started: Thu Mar 23 14:56:54 2017
-Info: Command: quartus_eda --functional=off --timescale=1ps --simulation=on --tool=modelsim_oem --format=verilog dsdlab4 -c dsdlab4
-Info (204026): Generated files "dsdlab4.vo", "dsdlab4_fast.vo", "dsdlab4_v.sdo" and "dsdlab4_v_fast.sdo" in directory "C:/Users/Lixuan/Desktop/dsdlab4/simulation/modelsim/" for EDA simulation tool
+    Info: Processing started: Fri Mar 24 15:37:16 2017
+Info: Command: quartus_eda --read_settings_files=off --write_settings_files=off dsdlab4 -c dsdlab4
+Info (204019): Generated file dsdlab4.vo in folder "C:/Users/Lixuan/Desktop/dsdlab4/simulation/modelsim/" for EDA simulation tool
 Info: Quartus II 64-Bit EDA Netlist Writer was successful. 0 errors, 0 warnings
-    Info: Peak virtual memory: 391 megabytes
-    Info: Processing ended: Thu Mar 23 14:56:55 2017
-    Info: Elapsed time: 00:00:01
+    Info: Peak virtual memory: 400 megabytes
+    Info: Processing ended: Fri Mar 24 15:37:16 2017
+    Info: Elapsed time: 00:00:00
     Info: Total CPU time (on all processors): 00:00:01
 
 

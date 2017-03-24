@@ -2,37 +2,35 @@
 # ** Warning: (vlib-34) Library already exists at "work".
 # 
 # Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module g58_rules_test
+# -- Compiling module g58_testbed
 # 
 # Top level modules:
-# 	g58_rules_test
+# 	g58_testbed
 # Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module g58_rules_test_vlg_sample_tst
-# -- Compiling module g58_rules_test_vlg_check_tst
-# -- Compiling module g58_rules_test_vlg_vec_tst
+# -- Compiling module g58_testbed_vlg_sample_tst
+# -- Compiling module g58_testbed_vlg_check_tst
+# -- Compiling module g58_testbed_vlg_vec_tst
 # 
 # Top level modules:
-# 	g58_rules_test_vlg_vec_tst
-# vsim -L cycloneii_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate -c -t 1ps -novopt work.g58_rules_test_vlg_vec_tst 
-# Loading work.g58_rules_test_vlg_vec_tst
-# Loading work.g58_rules_test
+# 	g58_testbed_vlg_vec_tst
+# vsim -L cycloneii_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate -c -t 1ps -novopt work.g58_testbed_vlg_vec_tst 
+# Loading work.g58_testbed_vlg_vec_tst
+# Loading work.g58_testbed
+# Loading cycloneii_ver.cycloneii_lcell_ff
 # Loading cycloneii_ver.cycloneii_lcell_comb
+# Loading cycloneii_ver.cycloneii_ram_block
+# Loading cycloneii_ver.cycloneii_ram_register
+# Loading cycloneii_ver.cycloneii_ram_pulse_generator
 # Loading cycloneii_ver.cycloneii_io
 # Loading cycloneii_ver.cycloneii_mux21
 # Loading cycloneii_ver.cycloneii_dffe
 # Loading cycloneii_ver.cycloneii_asynch_io
-# Loading work.g58_rules_test_vlg_sample_tst
-# Loading work.g58_rules_test_vlg_check_tst
-# SDF 10.1d Compiler 2012.11 Nov  2 2012
-# 
-# Loading instances from dsdlab4_v.sdo
+# Loading cycloneii_ver.cycloneii_clkctrl
+# Loading cycloneii_ver.cycloneii_mux41
+# Loading cycloneii_ver.cycloneii_ena_reg
+# Loading work.g58_testbed_vlg_sample_tst
+# Loading work.g58_testbed_vlg_check_tst
 # Loading cycloneii_ver.CYCLONEII_PRIM_DFFE
-# Loading timing data from dsdlab4_v.sdo
-# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
-#    Time: 0 ps  Iteration: 0  Instance: /g58_rules_test_vlg_vec_tst File: dsdlab4.vt
-# ERROR! Vector Mismatch for output port legal_play :: @time = 1050000.000 ps
-#      Expected value = 0
-#      Real value = 1
-#           1 mismatched vectors : Simulation failed !
-# ** Note: $finish    : dsdlab4.vt(151)
-#    Time: 1200 ns  Iteration: 0  Instance: /g58_rules_test_vlg_vec_tst/tb_out
+# Simulation passed !
+# ** Note: $finish    : dsdlab4.vt(714)
+#    Time: 1 us  Iteration: 0  Instance: /g58_testbed_vlg_vec_tst/tb_out

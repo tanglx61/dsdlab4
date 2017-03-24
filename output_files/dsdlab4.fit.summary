@@ -1,16 +1,16 @@
-Fitter Status : Successful - Thu Mar 23 14:56:41 2017
+Fitter Status : Successful - Fri Mar 24 15:37:09 2017
 Quartus II 64-Bit Version : 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition
 Revision Name : dsdlab4
-Top-level Entity Name : g58_rules_test
+Top-level Entity Name : g58_lab4_board
 Family : Cyclone II
 Device : EP2C20F484C7
 Timing Models : Final
-Total logic elements : 32 / 18,752 ( < 1 % )
-    Total combinational functions : 32 / 18,752 ( < 1 % )
-    Dedicated logic registers : 0 / 18,752 ( 0 % )
-Total registers : 0
-Total pins : 13 / 315 ( 4 % )
+Total logic elements : 633 / 18,752 ( 3 % )
+    Total combinational functions : 630 / 18,752 ( 3 % )
+    Dedicated logic registers : 405 / 18,752 ( 2 % )
+Total registers : 405
+Total pins : 37 / 315 ( 12 % )
 Total virtual pins : 0
-Total memory bits : 0 / 239,616 ( 0 % )
+Total memory bits : 3,328 / 239,616 ( 1 % )
 Embedded Multiplier 9-bit elements : 0 / 52 ( 0 % )
 Total PLLs : 0 / 4 ( 0 % )

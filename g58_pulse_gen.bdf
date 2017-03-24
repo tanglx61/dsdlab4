@@ -486,7 +486,7 @@ applicable agreement for further details.
 (symbol
 	(rect 904 408 1016 456)
 	(text "LPM_CONSTANT" (rect 4 0 125 16)(font "Arial" (font_size 10)))
-	(text "inst5" (rect 3 37 26 49)(font "Arial" ))
+	(text "inst_zeroes" (rect 3 37 58 49)(font "Arial" ))
 	(port
 		(pt 112 32)
 		(output)
@@ -512,7 +512,7 @@ applicable agreement for further details.
 		(line (pt 64 40)(pt 64 24))
 		(line (pt 16 40)(pt 16 24))
 	)
-	(annotation_block (parameter)(rect 1016 352 1273 394))
+	(annotation_block (parameter)(rect 1160 400 1417 442))
 )
 (connector
 	(text "clk" (rect 584 336 598 348)(font "Arial" ))
