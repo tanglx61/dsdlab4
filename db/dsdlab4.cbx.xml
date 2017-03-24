@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="dsdlab4">
+		<CBX_INST_ENTRY INSTANCE_NAME="|g58_rules_test|g58_rules:inst|g58_mod13:play_card_mod13|LPM_ADD_SUB:ADD1" CBX_FILE_NAME="add_sub_e8g.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|g58_rules_test|g58_rules:inst|g58_mod13:play_card_mod13|LPM_ADD_SUB:ADD3" CBX_FILE_NAME="add_sub_e8g.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|g58_rules_test|g58_rules:inst|g58_mod13:top_card_mod13|LPM_ADD_SUB:ADD2" CBX_FILE_NAME="add_sub_e8g.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|g58_rules_test|g58_rules:inst|g58_mod13:top_card_mod13|LPM_ADD_SUB:SUB1" CBX_FILE_NAME="add_sub_f9g.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|g58_rules_test|g58_rules:inst|g58_mod13:play_card_mod13|LPM_ADD_SUB:ADD2" CBX_FILE_NAME="add_sub_e8g.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|g58_rules_test|g58_rules:inst|g58_mod13:play_card_mod13|LPM_ADD_SUB:SUB1" CBX_FILE_NAME="add_sub_f9g.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|g58_rules_test|g58_rules:inst|g58_mod13:top_card_mod13|LPM_ADD_SUB:ADD1" CBX_FILE_NAME="add_sub_e8g.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|g58_rules_test|g58_rules:inst|g58_mod13:top_card_mod13|LPM_ADD_SUB:ADD3" CBX_FILE_NAME="add_sub_e8g.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

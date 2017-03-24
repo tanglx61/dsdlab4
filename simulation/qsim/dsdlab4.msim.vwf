@@ -1,0 +1,6569 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+
+/*
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+*/
+
+HEADER
+{
+	VERSION = 1;
+	TIME_UNIT = ns;
+	DATA_OFFSET = 0.0;
+	DATA_DURATION = 1200.0;
+	SIMULATION_TIME = 0.0;
+	GRID_PHASE = 0.0;
+	GRID_PERIOD = 0.0;
+	GRID_DUTY_CYCLE = 50;
+}
+
+SIGNAL("g58_rules_test_vlg_vec_tst|card_to_play")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = BUS;
+	WIDTH = 6;
+	LSB_INDEX = 0;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("g58_rules_test_vlg_vec_tst|card_to_play[5]")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "g58_rules_test_vlg_vec_tst|card_to_play";
+}
+
+SIGNAL("g58_rules_test_vlg_vec_tst|card_to_play[4]")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "g58_rules_test_vlg_vec_tst|card_to_play";
+}
+
+SIGNAL("g58_rules_test_vlg_vec_tst|card_to_play[3]")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "g58_rules_test_vlg_vec_tst|card_to_play";
+}
+
+SIGNAL("g58_rules_test_vlg_vec_tst|card_to_play[2]")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "g58_rules_test_vlg_vec_tst|card_to_play";
+}
+
+SIGNAL("g58_rules_test_vlg_vec_tst|card_to_play[1]")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "g58_rules_test_vlg_vec_tst|card_to_play";
+}
+
+SIGNAL("g58_rules_test_vlg_vec_tst|card_to_play[0]")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "g58_rules_test_vlg_vec_tst|card_to_play";
+}
+
+SIGNAL("g58_rules_test_vlg_vec_tst|play_pile_top_card")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = BUS;
+	WIDTH = 6;
+	LSB_INDEX = 0;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("g58_rules_test_vlg_vec_tst|play_pile_top_card[5]")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "g58_rules_test_vlg_vec_tst|play_pile_top_card";
+}
+
+SIGNAL("g58_rules_test_vlg_vec_tst|play_pile_top_card[4]")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "g58_rules_test_vlg_vec_tst|play_pile_top_card";
+}
+
+SIGNAL("g58_rules_test_vlg_vec_tst|play_pile_top_card[3]")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "g58_rules_test_vlg_vec_tst|play_pile_top_card";
+}
+
+SIGNAL("g58_rules_test_vlg_vec_tst|play_pile_top_card[2]")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "g58_rules_test_vlg_vec_tst|play_pile_top_card";
+}
+
+SIGNAL("g58_rules_test_vlg_vec_tst|play_pile_top_card[1]")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "g58_rules_test_vlg_vec_tst|play_pile_top_card";
+}
+
+SIGNAL("g58_rules_test_vlg_vec_tst|play_pile_top_card[0]")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "g58_rules_test_vlg_vec_tst|play_pile_top_card";
+}
+
+SIGNAL("g58_rules_test_vlg_vec_tst|legal_play")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("g58_rules_test_vlg_vec_tst|sampler")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("g58_rules_test_vlg_vec_tst|i1|gnd")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("g58_rules_test_vlg_vec_tst|i1|vcc")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("g58_rules_test_vlg_vec_tst|i1|unknown")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("g58_rules_test_vlg_vec_tst|i1|devclrn")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("g58_rules_test_vlg_vec_tst|i1|devpor")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("g58_rules_test_vlg_vec_tst|i1|devoe")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("g58_rules_test_vlg_vec_tst|i1|inst|top_card_mod13|SUB1|auto_generated|op_1~2_combout")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("g58_rules_test_vlg_vec_tst|i1|inst|top_card_mod13|ADD1|auto_generated|op_1~4_combout")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("g58_rules_test_vlg_vec_tst|i1|inst|top_card_mod13|ADD1|auto_generated|op_1~5_combout")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("g58_rules_test_vlg_vec_tst|i1|inst|Equal1~0_combout")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("g58_rules_test_vlg_vec_tst|i1|inst|top_card_mod13|ADD1|auto_generated|op_1~1_combout")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("g58_rules_test_vlg_vec_tst|i1|inst|top_card_mod13|ADD1|auto_generated|op_1~2_combout")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("g58_rules_test_vlg_vec_tst|i1|inst|top_card_mod13|ADD1|auto_generated|op_1~6_combout")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("g58_rules_test_vlg_vec_tst|i1|inst|top_card_mod13|ADD3|auto_generated|op_1~1_combout")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("g58_rules_test_vlg_vec_tst|i1|inst|top_card_mod13|ADD3|auto_generated|op_1~0_combout")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("g58_rules_test_vlg_vec_tst|i1|inst|top_card_mod13|ADD1|auto_generated|op_1~0_combout")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("g58_rules_test_vlg_vec_tst|i1|inst|top_card_mod13|ADD1|auto_generated|op_1~3_combout")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("g58_rules_test_vlg_vec_tst|i1|inst|top_card_mod13|SUB1|auto_generated|op_1~1")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("g58_rules_test_vlg_vec_tst|i1|inst|top_card_mod13|SUB1|auto_generated|op_1~3")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("g58_rules_test_vlg_vec_tst|i1|inst|top_card_mod13|SUB1|auto_generated|op_1~5")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("g58_rules_test_vlg_vec_tst|i1|inst|top_card_mod13|SUB1|auto_generated|op_1~6_combout")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("g58_rules_test_vlg_vec_tst|i1|inst|play_card_mod13|ADD1|auto_generated|op_1~1_combout")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("g58_rules_test_vlg_vec_tst|i1|inst|play_card_mod13|ADD1|auto_generated|op_1~0_combout")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("g58_rules_test_vlg_vec_tst|i1|inst|play_card_mod13|ADD1|auto_generated|op_1~2_combout")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("g58_rules_test_vlg_vec_tst|i1|inst|play_card_mod13|ADD3|auto_generated|op_1~0_combout")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("g58_rules_test_vlg_vec_tst|i1|inst|play_card_mod13|ADD1|auto_generated|op_1~4_combout")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("g58_rules_test_vlg_vec_tst|i1|inst|play_card_mod13|SUB1|auto_generated|op_1~1")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("g58_rules_test_vlg_vec_tst|i1|inst|play_card_mod13|SUB1|auto_generated|op_1~3")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("g58_rules_test_vlg_vec_tst|i1|inst|play_card_mod13|SUB1|auto_generated|op_1~4_combout")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("g58_rules_test_vlg_vec_tst|i1|inst|play_card_mod13|ADD3|auto_generated|op_1~1_combout")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("g58_rules_test_vlg_vec_tst|i1|inst|play_card_mod13|SUB1|auto_generated|op_1~5")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("g58_rules_test_vlg_vec_tst|i1|inst|play_card_mod13|SUB1|auto_generated|op_1~6_combout")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("g58_rules_test_vlg_vec_tst|i1|inst|Equal3~1_combout")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("g58_rules_test_vlg_vec_tst|i1|inst|top_card_mod13|SUB1|auto_generated|op_1~0_combout")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("g58_rules_test_vlg_vec_tst|i1|inst|top_card_mod13|SUB1|auto_generated|op_1~4_combout")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("g58_rules_test_vlg_vec_tst|i1|inst|Equal0~0_combout")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("g58_rules_test_vlg_vec_tst|i1|inst|play_card_mod13|SUB1|auto_generated|op_1~0_combout")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("g58_rules_test_vlg_vec_tst|i1|inst|play_card_mod13|SUB1|auto_generated|op_1~2_combout")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("g58_rules_test_vlg_vec_tst|i1|inst|Equal3~0_combout")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("g58_rules_test_vlg_vec_tst|i1|inst|legal_play~0_combout")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("g58_rules_test_vlg_vec_tst|i1|inst|play_card_mod13|ADD1|auto_generated|op_1~3_combout")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("g58_rules_test_vlg_vec_tst|i1|inst|Equal2~0_combout")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("g58_rules_test_vlg_vec_tst|i1|inst|play_card_mod13|ADD1|auto_generated|op_1~5_combout")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("g58_rules_test_vlg_vec_tst|i1|inst|legal_play~combout")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("g58_rules_test_vlg_vec_tst|i1|card_to_play~combout[5]")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("g58_rules_test_vlg_vec_tst|i1|card_to_play~combout[4]")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("g58_rules_test_vlg_vec_tst|i1|card_to_play~combout[3]")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("g58_rules_test_vlg_vec_tst|i1|card_to_play~combout[2]")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("g58_rules_test_vlg_vec_tst|i1|card_to_play~combout[1]")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("g58_rules_test_vlg_vec_tst|i1|card_to_play~combout[0]")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("g58_rules_test_vlg_vec_tst|i1|play_pile_top_card~combout[5]")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("g58_rules_test_vlg_vec_tst|i1|play_pile_top_card~combout[4]")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("g58_rules_test_vlg_vec_tst|i1|play_pile_top_card~combout[3]")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("g58_rules_test_vlg_vec_tst|i1|play_pile_top_card~combout[2]")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("g58_rules_test_vlg_vec_tst|i1|play_pile_top_card~combout[1]")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("g58_rules_test_vlg_vec_tst|i1|play_pile_top_card~combout[0]")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+TRANSITION_LIST("g58_rules_test_vlg_vec_tst|card_to_play[5]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 100.0;
+		LEVEL 1 FOR 100.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 25.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 15.0;
+		LEVEL 1 FOR 25.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 15.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 15.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 160.0;
+		LEVEL 1 FOR 160.0;
+		LEVEL 0 FOR 200.0;
+		LEVEL 1 FOR 60.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 25.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 15.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 15.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 10.0;
+	}
+}
+
+TRANSITION_LIST("g58_rules_test_vlg_vec_tst|card_to_play[4]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 50.0;
+		LEVEL 1 FOR 50.0;
+		LEVEL 0 FOR 105.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 35.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 35.0;
+		LEVEL 0 FOR 85.0;
+		LEVEL 1 FOR 80.0;
+		LEVEL 0 FOR 80.0;
+		LEVEL 1 FOR 80.0;
+		LEVEL 0 FOR 130.0;
+		LEVEL 1 FOR 70.0;
+		LEVEL 0 FOR 60.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 15.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 15.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 15.0;
+	}
+}
+
+TRANSITION_LIST("g58_rules_test_vlg_vec_tst|card_to_play[3]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 150.0;
+		LEVEL 1 FOR 50.0;
+		LEVEL 0 FOR 25.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 25.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 25.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 50.0;
+		LEVEL 1 FOR 40.0;
+		LEVEL 0 FOR 40.0;
+		LEVEL 1 FOR 40.0;
+		LEVEL 0 FOR 40.0;
+		LEVEL 1 FOR 40.0;
+		LEVEL 0 FOR 40.0;
+		LEVEL 1 FOR 40.0;
+		LEVEL 0 FOR 65.0;
+		LEVEL 1 FOR 135.0;
+		LEVEL 0 FOR 60.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 15.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 15.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 15.0;
+		LEVEL 1 FOR 15.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 15.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 5.0;
+	}
+}
+
+TRANSITION_LIST("g58_rules_test_vlg_vec_tst|card_to_play[2]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 1 FOR 100.0;
+		LEVEL 0 FOR 50.0;
+		LEVEL 1 FOR 50.0;
+		LEVEL 0 FOR 15.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 15.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 25.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 15.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 25.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 65.0;
+		LEVEL 1 FOR 65.0;
+		LEVEL 0 FOR 70.0;
+		LEVEL 1 FOR 60.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 30.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 30.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 10.0;
+	}
+}
+
+TRANSITION_LIST("g58_rules_test_vlg_vec_tst|card_to_play[1]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 1 FOR 50.0;
+		LEVEL 0 FOR 100.0;
+		LEVEL 1 FOR 60.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 15.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 25.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 15.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 25.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 130.0;
+		LEVEL 1 FOR 135.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 15.0;
+		LEVEL 1 FOR 30.0;
+		LEVEL 0 FOR 15.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 15.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 15.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 15.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+	}
+}
+
+TRANSITION_LIST("g58_rules_test_vlg_vec_tst|card_to_play[0]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 1 FOR 50.0;
+		LEVEL 0 FOR 50.0;
+		LEVEL 1 FOR 50.0;
+		LEVEL 0 FOR 60.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 25.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 15.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 15.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 15.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 65.0;
+		LEVEL 1 FOR 65.0;
+		LEVEL 0 FOR 70.0;
+		LEVEL 1 FOR 60.0;
+		LEVEL 0 FOR 15.0;
+		LEVEL 1 FOR 15.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 15.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 25.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 15.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 15.0;
+		LEVEL 1 FOR 5.0;
+	}
+}
+
+TRANSITION_LIST("g58_rules_test_vlg_vec_tst|play_pile_top_card[5]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 15.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 15.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 130.0;
+		LEVEL 1 FOR 100.0;
+		LEVEL 0 FOR 160.0;
+		LEVEL 1 FOR 160.0;
+		LEVEL 0 FOR 160.0;
+		LEVEL 1 FOR 100.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 15.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 15.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 15.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 15.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 15.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+	}
+}
+
+TRANSITION_LIST("g58_rules_test_vlg_vec_tst|play_pile_top_card[4]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 15.0;
+		LEVEL 1 FOR 15.0;
+		LEVEL 0 FOR 15.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 30.0;
+		LEVEL 0 FOR 15.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 55.0;
+		LEVEL 1 FOR 50.0;
+		LEVEL 0 FOR 180.0;
+		LEVEL 1 FOR 80.0;
+		LEVEL 0 FOR 80.0;
+		LEVEL 1 FOR 80.0;
+		LEVEL 0 FOR 80.0;
+		LEVEL 1 FOR 80.0;
+		LEVEL 0 FOR 80.0;
+		LEVEL 1 FOR 30.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 15.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 15.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 15.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 15.0;
+		LEVEL 1 FOR 5.0;
+	}
+}
+
+TRANSITION_LIST("g58_rules_test_vlg_vec_tst|play_pile_top_card[3]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 1 FOR 25.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 15.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 15.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 15.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 165.0;
+		LEVEL 1 FOR 50.0;
+		LEVEL 0 FOR 40.0;
+		LEVEL 1 FOR 40.0;
+		LEVEL 0 FOR 40.0;
+		LEVEL 1 FOR 40.0;
+		LEVEL 0 FOR 40.0;
+		LEVEL 1 FOR 40.0;
+		LEVEL 0 FOR 40.0;
+		LEVEL 1 FOR 40.0;
+		LEVEL 0 FOR 40.0;
+		LEVEL 1 FOR 40.0;
+		LEVEL 0 FOR 40.0;
+		LEVEL 1 FOR 40.0;
+		LEVEL 0 FOR 40.0;
+		LEVEL 1 FOR 40.0;
+		LEVEL 0 FOR 25.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 25.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 15.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 5.0;
+	}
+}
+
+TRANSITION_LIST("g58_rules_test_vlg_vec_tst|play_pile_top_card[2]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 35.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 30.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 15.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 100.0;
+		LEVEL 0 FOR 50.0;
+		LEVEL 1 FOR 50.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 25.0;
+		LEVEL 1 FOR 15.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 15.0;
+		LEVEL 0 FOR 25.0;
+		LEVEL 1 FOR 15.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+	}
+}
+
+TRANSITION_LIST("g58_rules_test_vlg_vec_tst|play_pile_top_card[1]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 15.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 25.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 15.0;
+		LEVEL 1 FOR 15.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 15.0;
+		LEVEL 1 FOR 50.0;
+		LEVEL 0 FOR 100.0;
+		LEVEL 1 FOR 50.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 30.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 15.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 15.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+	}
+}
+
+TRANSITION_LIST("g58_rules_test_vlg_vec_tst|play_pile_top_card[0]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 15.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 15.0;
+		LEVEL 1 FOR 50.0;
+		LEVEL 0 FOR 50.0;
+		LEVEL 1 FOR 50.0;
+		LEVEL 0 FOR 55.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 25.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 15.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 30.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 15.0;
+		LEVEL 1 FOR 30.0;
+	}
+}
+
+TRANSITION_LIST("g58_rules_test_vlg_vec_tst|legal_play")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL X FOR 15.475;
+		LEVEL 1 FOR 784.073;
+		LEVEL 0 FOR 4.927;
+		LEVEL 1 FOR 188.66;
+		LEVEL 0 FOR 51.99;
+		LEVEL 1 FOR 9.055;
+		LEVEL 0 FOR 9.607;
+		LEVEL 1 FOR 10.353;
+		LEVEL 0 FOR 9.544;
+		LEVEL 1 FOR 4.176;
+		LEVEL 0 FOR 17.328;
+		LEVEL 1 FOR 12.935;
+		LEVEL 0 FOR 25.561;
+		LEVEL 1 FOR 6.397;
+		LEVEL 0 FOR 15.216;
+		LEVEL 1 FOR 4.68;
+		LEVEL 0 FOR 24.373;
+		LEVEL 1 FOR 4.734;
+		LEVEL 0 FOR 0.916;
+	}
+}
+
+TRANSITION_LIST("g58_rules_test_vlg_vec_tst|sampler")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL X FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+	}
+}
+
+TRANSITION_LIST("g58_rules_test_vlg_vec_tst|i1|gnd")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 1200.0;
+	}
+}
+
+TRANSITION_LIST("g58_rules_test_vlg_vec_tst|i1|vcc")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 1 FOR 1200.0;
+	}
+}
+
+TRANSITION_LIST("g58_rules_test_vlg_vec_tst|i1|unknown")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL X FOR 1200.0;
+	}
+}
+
+TRANSITION_LIST("g58_rules_test_vlg_vec_tst|i1|devclrn")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 1 FOR 1200.0;
+	}
+}
+
+TRANSITION_LIST("g58_rules_test_vlg_vec_tst|i1|devpor")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 1 FOR 1200.0;
+	}
+}
+
+TRANSITION_LIST("g58_rules_test_vlg_vec_tst|i1|devoe")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 1 FOR 1200.0;
+	}
+}
+
+TRANSITION_LIST("g58_rules_test_vlg_vec_tst|i1|inst|top_card_mod13|SUB1|auto_generated|op_1~2_combout")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL X FOR 27.441;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 1.319;
+		LEVEL 0 FOR 4.617;
+		LEVEL 1 FOR 9.064;
+		LEVEL 0 FOR 1.319;
+		LEVEL 1 FOR 8.681;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 13.357;
+		LEVEL 0 FOR 2.579;
+		LEVEL 1 FOR 15.0;
+		LEVEL 0 FOR 10.494;
+		LEVEL 1 FOR 0.601;
+		LEVEL 0 FOR 7.969;
+		LEVEL 1 FOR 2.031;
+		LEVEL 0 FOR 3.712;
+		LEVEL 1 FOR 10.193;
+		LEVEL 0 FOR 9.807;
+		LEVEL 1 FOR 4.257;
+		LEVEL 0 FOR 15.0;
+		LEVEL 1 FOR 1.778;
+		LEVEL 0 FOR 6.278;
+		LEVEL 1 FOR 3.422;
+		LEVEL 0 FOR 4.265;
+		LEVEL 1 FOR 10.687;
+		LEVEL 0 FOR 3.57;
+		LEVEL 1 FOR 50.0;
+		LEVEL 0 FOR 1.43;
+		LEVEL 1 FOR 98.57;
+		LEVEL 0 FOR 2.284;
+		LEVEL 1 FOR 47.716;
+		LEVEL 0 FOR 0.936;
+		LEVEL 1 FOR 0.607;
+		LEVEL 0 FOR 8.457;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 0.897;
+		LEVEL 1 FOR 1.324;
+		LEVEL 0 FOR 7.779;
+		LEVEL 1 FOR 2.221;
+		LEVEL 0 FOR 7.779;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 2.031;
+		LEVEL 0 FOR 0.692;
+		LEVEL 1 FOR 7.277;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 1.43;
+		LEVEL 0 FOR 0.601;
+		LEVEL 1 FOR 7.969;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 2.031;
+		LEVEL 0 FOR 7.969;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 1.205;
+		LEVEL 1 FOR 0.826;
+		LEVEL 0 FOR 7.969;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 1.43;
+		LEVEL 1 FOR 0.601;
+		LEVEL 0 FOR 7.969;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 0.897;
+		LEVEL 1 FOR 1.324;
+		LEVEL 0 FOR 7.779;
+		LEVEL 1 FOR 2.221;
+		LEVEL 0 FOR 7.779;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 2.031;
+		LEVEL 0 FOR 0.692;
+		LEVEL 1 FOR 7.277;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 1.43;
+		LEVEL 0 FOR 0.601;
+		LEVEL 1 FOR 7.969;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 2.031;
+		LEVEL 0 FOR 7.969;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 15.743;
+		LEVEL 0 FOR 0.697;
+		LEVEL 1 FOR 20.826;
+		LEVEL 0 FOR 4.174;
+		LEVEL 1 FOR 28.56;
+		LEVEL 0 FOR 0.936;
+		LEVEL 1 FOR 15.494;
+		LEVEL 0 FOR 3.57;
+		LEVEL 1 FOR 0.936;
+		LEVEL 0 FOR 9.064;
+		LEVEL 1 FOR 1.43;
+		LEVEL 0 FOR 20.348;
+		LEVEL 1 FOR 3.965;
+		LEVEL 0 FOR 5.193;
+		LEVEL 1 FOR 1.709;
+		LEVEL 0 FOR 8.291;
+		LEVEL 1 FOR 5.494;
+		LEVEL 0 FOR 8.57;
+		LEVEL 1 FOR 6.43;
+		LEVEL 0 FOR 4.313;
+		LEVEL 1 FOR 16.523;
+		LEVEL 0 FOR 2.734;
+		LEVEL 1 FOR 10.897;
+		LEVEL 0 FOR 0.581;
+		LEVEL 1 FOR 8.522;
+		LEVEL 0 FOR 6.319;
+		LEVEL 1 FOR 11.24;
+	}
+}
+
+TRANSITION_LIST("g58_rules_test_vlg_vec_tst|i1|inst|top_card_mod13|ADD1|auto_generated|op_1~4_combout")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL X FOR 13.812;
+		LEVEL 1 FOR 19.41;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 13.422;
+		LEVEL 0 FOR 126.578;
+		LEVEL 1 FOR 3.422;
+		LEVEL 0 FOR 171.578;
+		LEVEL 1 FOR 48.422;
+		LEVEL 0 FOR 60.0;
+		LEVEL 1 FOR 1.515;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 8.485;
+		LEVEL 0 FOR 60.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 60.0;
+		LEVEL 1 FOR 1.515;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 8.485;
+		LEVEL 0 FOR 60.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 60.0;
+		LEVEL 1 FOR 1.515;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 8.485;
+		LEVEL 0 FOR 60.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 60.0;
+		LEVEL 1 FOR 1.515;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 8.485;
+		LEVEL 0 FOR 36.578;
+		LEVEL 1 FOR 3.422;
+		LEVEL 0 FOR 16.578;
+		LEVEL 1 FOR 3.422;
+		LEVEL 0 FOR 145.0;
+		LEVEL 1 FOR 28.356;
+	}
+}
+
+TRANSITION_LIST("g58_rules_test_vlg_vec_tst|i1|inst|top_card_mod13|ADD1|auto_generated|op_1~5_combout")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL X FOR 22.364;
+		LEVEL 1 FOR 15.0;
+		LEVEL 0 FOR 4.617;
+		LEVEL 1 FOR 10.383;
+		LEVEL 0 FOR 42.038;
+		LEVEL 1 FOR 2.579;
+		LEVEL 0 FOR 15.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 0.383;
+		LEVEL 1 FOR 24.617;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 10.842;
+		LEVEL 0 FOR 6.278;
+		LEVEL 1 FOR 3.422;
+		LEVEL 0 FOR 119.458;
+		LEVEL 1 FOR 100.0;
+		LEVEL 0 FOR 121.33;
+		LEVEL 1 FOR 0.692;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 27.978;
+		LEVEL 0 FOR 0.383;
+		LEVEL 1 FOR 80.0;
+		LEVEL 0 FOR 0.947;
+		LEVEL 1 FOR 19.174;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 0.826;
+		LEVEL 0 FOR 38.67;
+		LEVEL 1 FOR 0.383;
+		LEVEL 0 FOR 120.947;
+		LEVEL 1 FOR 0.692;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 27.978;
+		LEVEL 0 FOR 0.383;
+		LEVEL 1 FOR 80.0;
+		LEVEL 0 FOR 0.947;
+		LEVEL 1 FOR 24.174;
+		LEVEL 0 FOR 20.826;
+		LEVEL 1 FOR 4.174;
+		LEVEL 0 FOR 15.826;
+		LEVEL 1 FOR 13.67;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 30.842;
+		LEVEL 0 FOR 9.158;
+		LEVEL 1 FOR 1.709;
+		LEVEL 0 FOR 3.795;
+		LEVEL 1 FOR 4.496;
+		LEVEL 0 FOR 41.33;
+		LEVEL 1 FOR 5.692;
+		LEVEL 0 FOR 8.52;
+		LEVEL 1 FOR 14.841;
+		LEVEL 0 FOR 12.636;
+	}
+}
+
+TRANSITION_LIST("g58_rules_test_vlg_vec_tst|i1|inst|Equal1~0_combout")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL X FOR 8.728;
+		LEVEL 1 FOR 48.919;
+		LEVEL 0 FOR 2.162;
+		LEVEL 1 FOR 47.838;
+		LEVEL 0 FOR 1.957;
+		LEVEL 1 FOR 47.545;
+		LEVEL 0 FOR 2.628;
+		LEVEL 1 FOR 47.372;
+		LEVEL 0 FOR 111.27;
+		LEVEL 1 FOR 9.228;
+		LEVEL 0 FOR 55.772;
+		LEVEL 1 FOR 4.687;
+		LEVEL 0 FOR 120.478;
+		LEVEL 1 FOR 9.835;
+		LEVEL 0 FOR 109.014;
+		LEVEL 1 FOR 0.986;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 8.73;
+		LEVEL 0 FOR 391.229;
+		LEVEL 1 FOR 9.055;
+		LEVEL 0 FOR 55.986;
+		LEVEL 1 FOR 4.228;
+		LEVEL 0 FOR 92.353;
+	}
+}
+
+TRANSITION_LIST("g58_rules_test_vlg_vec_tst|i1|inst|top_card_mod13|ADD1|auto_generated|op_1~1_combout")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL X FOR 27.098;
+		LEVEL 1 FOR 14.687;
+		LEVEL 0 FOR 50.712;
+		LEVEL 1 FOR 30.0;
+		LEVEL 0 FOR 39.601;
+		LEVEL 1 FOR 15.0;
+		LEVEL 0 FOR 129.687;
+		LEVEL 1 FOR 0.712;
+		LEVEL 0 FOR 49.601;
+		LEVEL 1 FOR 0.653;
+		LEVEL 0 FOR 139.347;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.399;
+		LEVEL 0 FOR 80.0;
+		LEVEL 1 FOR 79.601;
+		LEVEL 0 FOR 90.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.399;
+		LEVEL 0 FOR 80.0;
+		LEVEL 1 FOR 79.601;
+		LEVEL 0 FOR 30.399;
+		LEVEL 1 FOR 19.288;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 20.712;
+		LEVEL 1 FOR 24.601;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 5.399;
+		LEVEL 0 FOR 12.503;
+	}
+}
+
+TRANSITION_LIST("g58_rules_test_vlg_vec_tst|i1|inst|top_card_mod13|ADD1|auto_generated|op_1~2_combout")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL X FOR 21.974;
+		LEVEL 1 FOR 20.867;
+		LEVEL 0 FOR 50.712;
+		LEVEL 1 FOR 28.909;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 14.512;
+		LEVEL 0 FOR 29.662;
+		LEVEL 1 FOR 0.338;
+		LEVEL 0 FOR 180.488;
+		LEVEL 1 FOR 49.512;
+		LEVEL 0 FOR 120.488;
+		LEVEL 1 FOR 0.692;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 9.308;
+		LEVEL 0 FOR 40.0;
+		LEVEL 1 FOR 40.0;
+		LEVEL 0 FOR 19.174;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 0.826;
+		LEVEL 1 FOR 40.0;
+		LEVEL 0 FOR 120.0;
+		LEVEL 1 FOR 0.692;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 9.308;
+		LEVEL 0 FOR 40.0;
+		LEVEL 1 FOR 40.0;
+		LEVEL 0 FOR 24.174;
+		LEVEL 1 FOR 20.826;
+		LEVEL 0 FOR 4.174;
+		LEVEL 1 FOR 15.826;
+		LEVEL 0 FOR 64.174;
+		LEVEL 1 FOR 0.338;
+		LEVEL 0 FOR 10.867;
+		LEVEL 1 FOR 3.795;
+		LEVEL 0 FOR 45.826;
+		LEVEL 1 FOR 5.692;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 5.399;
+		LEVEL 0 FOR 11.447;
+	}
+}
+
+TRANSITION_LIST("g58_rules_test_vlg_vec_tst|i1|inst|top_card_mod13|ADD1|auto_generated|op_1~6_combout")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL X FOR 22.358;
+		LEVEL 0 FOR 15.0;
+		LEVEL 1 FOR 4.62;
+		LEVEL 0 FOR 55.0;
+		LEVEL 1 FOR 15.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 0.38;
+		LEVEL 0 FOR 444.62;
+		LEVEL 1 FOR 0.38;
+		LEVEL 0 FOR 80.0;
+		LEVEL 1 FOR 0.921;
+		LEVEL 0 FOR 19.174;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 0.826;
+		LEVEL 1 FOR 38.699;
+		LEVEL 0 FOR 160.0;
+		LEVEL 1 FOR 0.38;
+		LEVEL 0 FOR 80.0;
+		LEVEL 1 FOR 0.921;
+		LEVEL 0 FOR 24.174;
+		LEVEL 1 FOR 20.826;
+		LEVEL 0 FOR 4.174;
+		LEVEL 1 FOR 15.826;
+		LEVEL 0 FOR 75.379;
+		LEVEL 1 FOR 3.795;
+		LEVEL 0 FOR 87.547;
+	}
+}
+
+TRANSITION_LIST("g58_rules_test_vlg_vec_tst|i1|inst|top_card_mod13|ADD3|auto_generated|op_1~1_combout")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL X FOR 21.974;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 15.55;
+		LEVEL 0 FOR 34.831;
+		LEVEL 1 FOR 4.619;
+		LEVEL 0 FOR 15.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 1.331;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 13.669;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 25.381;
+		LEVEL 0 FOR 55.0;
+		LEVEL 1 FOR 49.619;
+		LEVEL 0 FOR 0.381;
+		LEVEL 1 FOR 50.95;
+		LEVEL 0 FOR 48.669;
+		LEVEL 1 FOR 0.843;
+		LEVEL 0 FOR 59.707;
+		LEVEL 1 FOR 1.515;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 87.935;
+		LEVEL 0 FOR 1.331;
+		LEVEL 1 FOR 40.0;
+		LEVEL 0 FOR 118.669;
+		LEVEL 1 FOR 1.331;
+		LEVEL 0 FOR 59.219;
+		LEVEL 1 FOR 1.515;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 87.935;
+		LEVEL 0 FOR 1.331;
+		LEVEL 1 FOR 40.0;
+		LEVEL 0 FOR 118.669;
+		LEVEL 1 FOR 15.381;
+		LEVEL 0 FOR 4.619;
+		LEVEL 1 FOR 10.381;
+		LEVEL 0 FOR 19.619;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 5.381;
+		LEVEL 0 FOR 15.0;
+		LEVEL 1 FOR 62.645;
+	}
+}
+
+TRANSITION_LIST("g58_rules_test_vlg_vec_tst|i1|inst|top_card_mod13|ADD3|auto_generated|op_1~0_combout")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL X FOR 21.977;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 10.376;
+		LEVEL 1 FOR 5.168;
+		LEVEL 0 FOR 34.832;
+		LEVEL 1 FOR 2.047;
+		LEVEL 0 FOR 2.577;
+		LEVEL 1 FOR 15.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 1.332;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 50.79;
+		LEVEL 0 FOR 3.422;
+		LEVEL 1 FOR 14.832;
+		LEVEL 0 FOR 55.0;
+		LEVEL 1 FOR 50.0;
+		LEVEL 0 FOR 50.956;
+		LEVEL 1 FOR 49.512;
+		LEVEL 0 FOR 59.7;
+		LEVEL 1 FOR 1.515;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 49.273;
+		LEVEL 0 FOR 0.692;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 27.976;
+		LEVEL 1 FOR 1.332;
+		LEVEL 0 FOR 40.0;
+		LEVEL 1 FOR 118.668;
+		LEVEL 0 FOR 0.376;
+		LEVEL 1 FOR 0.956;
+		LEVEL 0 FOR 59.212;
+		LEVEL 1 FOR 1.515;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 49.273;
+		LEVEL 0 FOR 0.692;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 27.976;
+		LEVEL 1 FOR 1.332;
+		LEVEL 0 FOR 40.0;
+		LEVEL 1 FOR 134.044;
+		LEVEL 0 FOR 15.0;
+		LEVEL 1 FOR 45.0;
+		LEVEL 0 FOR 15.0;
+		LEVEL 1 FOR 20.956;
+		LEVEL 0 FOR 5.692;
+		LEVEL 1 FOR 8.52;
+		LEVEL 0 FOR 14.832;
+		LEVEL 1 FOR 12.647;
+	}
+}
+
+TRANSITION_LIST("g58_rules_test_vlg_vec_tst|i1|inst|top_card_mod13|ADD1|auto_generated|op_1~0_combout")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL X FOR 12.751;
+		LEVEL 1 FOR 19.41;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 80.0;
+		LEVEL 0 FOR 15.59;
+		LEVEL 1 FOR 14.41;
+		LEVEL 0 FOR 30.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 165.0;
+		LEVEL 1 FOR 50.0;
+		LEVEL 0 FOR 49.937;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.063;
+		LEVEL 0 FOR 40.0;
+		LEVEL 1 FOR 40.0;
+		LEVEL 0 FOR 49.937;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.063;
+		LEVEL 0 FOR 40.0;
+		LEVEL 1 FOR 40.0;
+		LEVEL 0 FOR 49.937;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.063;
+		LEVEL 0 FOR 40.0;
+		LEVEL 1 FOR 40.0;
+		LEVEL 0 FOR 49.937;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.063;
+		LEVEL 0 FOR 35.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 125.0;
+		LEVEL 1 FOR 42.839;
+	}
+}
+
+TRANSITION_LIST("g58_rules_test_vlg_vec_tst|i1|inst|top_card_mod13|ADD1|auto_generated|op_1~3_combout")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL X FOR 22.365;
+		LEVEL 1 FOR 15.0;
+		LEVEL 0 FOR 15.0;
+		LEVEL 1 FOR 4.467;
+		LEVEL 0 FOR 35.533;
+		LEVEL 1 FOR 1.692;
+		LEVEL 0 FOR 28.308;
+		LEVEL 1 FOR 0.601;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 44.174;
+		LEVEL 0 FOR 0.338;
+		LEVEL 1 FOR 5.741;
+		LEVEL 0 FOR 3.613;
+		LEVEL 1 FOR 15.533;
+		LEVEL 0 FOR 55.0;
+		LEVEL 1 FOR 50.0;
+		LEVEL 0 FOR 50.854;
+		LEVEL 1 FOR 49.259;
+		LEVEL 0 FOR 59.354;
+		LEVEL 1 FOR 1.324;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 8.676;
+		LEVEL 0 FOR 0.533;
+		LEVEL 1 FOR 40.601;
+		LEVEL 0 FOR 0.692;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 28.707;
+		LEVEL 1 FOR 0.601;
+		LEVEL 0 FOR 40.0;
+		LEVEL 1 FOR 39.399;
+		LEVEL 0 FOR 0.601;
+		LEVEL 1 FOR 19.174;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 0.826;
+		LEVEL 0 FOR 39.399;
+		LEVEL 1 FOR 0.601;
+		LEVEL 0 FOR 58.866;
+		LEVEL 1 FOR 1.324;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 8.676;
+		LEVEL 0 FOR 0.533;
+		LEVEL 1 FOR 40.601;
+		LEVEL 0 FOR 0.692;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 28.707;
+		LEVEL 1 FOR 0.601;
+		LEVEL 0 FOR 40.0;
+		LEVEL 1 FOR 39.399;
+		LEVEL 0 FOR 0.601;
+		LEVEL 1 FOR 24.174;
+		LEVEL 0 FOR 20.826;
+		LEVEL 1 FOR 4.174;
+		LEVEL 0 FOR 15.826;
+		LEVEL 1 FOR 29.399;
+		LEVEL 0 FOR 15.0;
+		LEVEL 1 FOR 19.775;
+		LEVEL 0 FOR 0.338;
+		LEVEL 1 FOR 10.867;
+		LEVEL 0 FOR 3.795;
+		LEVEL 1 FOR 10.225;
+		LEVEL 0 FOR 15.0;
+		LEVEL 1 FOR 20.601;
+		LEVEL 0 FOR 5.692;
+		LEVEL 1 FOR 8.174;
+		LEVEL 0 FOR 15.533;
+		LEVEL 1 FOR 12.635;
+	}
+}
+
+TRANSITION_LIST("g58_rules_test_vlg_vec_tst|i1|inst|top_card_mod13|SUB1|auto_generated|op_1~1")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL X FOR 12.726;
+		LEVEL 1 FOR 110.687;
+		LEVEL 0 FOR 0.601;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 3.712;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 25.0;
+		LEVEL 0 FOR 10.687;
+		LEVEL 1 FOR 55.0;
+		LEVEL 0 FOR 49.313;
+		LEVEL 1 FOR 51.541;
+		LEVEL 0 FOR 49.259;
+		LEVEL 1 FOR 59.354;
+		LEVEL 0 FOR 1.324;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 49.81;
+		LEVEL 1 FOR 0.692;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 28.707;
+		LEVEL 0 FOR 0.601;
+		LEVEL 1 FOR 40.0;
+		LEVEL 0 FOR 39.399;
+		LEVEL 1 FOR 0.601;
+		LEVEL 0 FOR 19.174;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 0.826;
+		LEVEL 1 FOR 39.399;
+		LEVEL 0 FOR 0.601;
+		LEVEL 1 FOR 58.866;
+		LEVEL 0 FOR 1.324;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 49.81;
+		LEVEL 1 FOR 0.692;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 28.707;
+		LEVEL 0 FOR 0.601;
+		LEVEL 1 FOR 40.0;
+		LEVEL 0 FOR 39.399;
+		LEVEL 1 FOR 0.601;
+		LEVEL 0 FOR 23.712;
+		LEVEL 1 FOR 41.288;
+		LEVEL 0 FOR 29.399;
+		LEVEL 1 FOR 15.0;
+		LEVEL 0 FOR 24.313;
+		LEVEL 1 FOR 10.462;
+		LEVEL 0 FOR 10.225;
+		LEVEL 1 FOR 15.0;
+		LEVEL 0 FOR 4.313;
+		LEVEL 1 FOR 21.98;
+		LEVEL 0 FOR 8.174;
+		LEVEL 1 FOR 27.12;
+	}
+}
+
+TRANSITION_LIST("g58_rules_test_vlg_vec_tst|i1|inst|top_card_mod13|SUB1|auto_generated|op_1~3")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL X FOR 27.415;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 1.317;
+		LEVEL 0 FOR 4.617;
+		LEVEL 1 FOR 9.066;
+		LEVEL 0 FOR 71.078;
+		LEVEL 1 FOR 0.601;
+		LEVEL 0 FOR 8.321;
+		LEVEL 1 FOR 15.934;
+		LEVEL 0 FOR 9.457;
+		LEVEL 1 FOR 4.609;
+		LEVEL 0 FOR 15.0;
+		LEVEL 1 FOR 1.776;
+		LEVEL 0 FOR 6.278;
+		LEVEL 1 FOR 3.422;
+		LEVEL 0 FOR 3.915;
+		LEVEL 1 FOR 10.687;
+		LEVEL 0 FOR 55.0;
+		LEVEL 1 FOR 49.313;
+		LEVEL 0 FOR 0.543;
+		LEVEL 1 FOR 49.066;
+		LEVEL 0 FOR 1.932;
+		LEVEL 1 FOR 49.259;
+		LEVEL 0 FOR 59.354;
+		LEVEL 1 FOR 1.324;
+		LEVEL 0 FOR 18.131;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 1.679;
+		LEVEL 0 FOR 0.692;
+		LEVEL 1 FOR 7.629;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 41.078;
+		LEVEL 0 FOR 0.601;
+		LEVEL 1 FOR 19.759;
+		LEVEL 0 FOR 19.415;
+		LEVEL 1 FOR 0.826;
+		LEVEL 0 FOR 39.399;
+		LEVEL 1 FOR 0.601;
+		LEVEL 0 FOR 58.866;
+		LEVEL 1 FOR 1.324;
+		LEVEL 0 FOR 18.131;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 1.679;
+		LEVEL 0 FOR 0.692;
+		LEVEL 1 FOR 7.629;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 41.078;
+		LEVEL 0 FOR 0.601;
+		LEVEL 1 FOR 23.712;
+		LEVEL 0 FOR 41.873;
+		LEVEL 1 FOR 28.814;
+		LEVEL 0 FOR 13.922;
+		LEVEL 1 FOR 25.391;
+		LEVEL 0 FOR 5.543;
+		LEVEL 1 FOR 1.709;
+		LEVEL 0 FOR 3.21;
+		LEVEL 1 FOR 10.225;
+		LEVEL 0 FOR 38.922;
+		LEVEL 1 FOR 10.545;
+		LEVEL 0 FOR 0.931;
+		LEVEL 1 FOR 8.524;
+		LEVEL 0 FOR 17.585;
+	}
+}
+
+TRANSITION_LIST("g58_rules_test_vlg_vec_tst|i1|inst|top_card_mod13|SUB1|auto_generated|op_1~5")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL X FOR 27.495;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 1.317;
+		LEVEL 1 FOR 17.998;
+		LEVEL 0 FOR 1.727;
+		LEVEL 1 FOR 34.832;
+		LEVEL 0 FOR 2.047;
+		LEVEL 1 FOR 2.577;
+		LEVEL 0 FOR 15.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 1.181;
+		LEVEL 1 FOR 8.321;
+		LEVEL 0 FOR 44.315;
+		LEVEL 1 FOR 0.685;
+		LEVEL 0 FOR 1.776;
+		LEVEL 1 FOR 7.539;
+		LEVEL 0 FOR 16.763;
+		LEVEL 1 FOR 55.0;
+		LEVEL 0 FOR 98.237;
+		LEVEL 1 FOR 2.617;
+		LEVEL 0 FOR 49.259;
+		LEVEL 1 FOR 59.851;
+		LEVEL 0 FOR 0.827;
+		LEVEL 1 FOR 17.446;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 0.685;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 9.315;
+		LEVEL 0 FOR 2.364;
+		LEVEL 1 FOR 0.843;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 27.478;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 30.0;
+		LEVEL 0 FOR 61.438;
+		LEVEL 1 FOR 17.877;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 2.364;
+		LEVEL 1 FOR 59.363;
+		LEVEL 0 FOR 0.827;
+		LEVEL 1 FOR 17.446;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 0.685;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 9.315;
+		LEVEL 0 FOR 2.364;
+		LEVEL 1 FOR 0.843;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 27.478;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 30.0;
+		LEVEL 0 FOR 65.391;
+		LEVEL 1 FOR 13.924;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 36.559;
+		LEVEL 1 FOR 14.126;
+		LEVEL 0 FOR 25.391;
+		LEVEL 1 FOR 5.543;
+		LEVEL 0 FOR 1.709;
+		LEVEL 1 FOR 1.672;
+		LEVEL 0 FOR 11.763;
+		LEVEL 1 FOR 28.237;
+		LEVEL 0 FOR 7.515;
+		LEVEL 1 FOR 3.17;
+		LEVEL 0 FOR 10.545;
+		LEVEL 1 FOR 26.96;
+	}
+}
+
+TRANSITION_LIST("g58_rules_test_vlg_vec_tst|i1|inst|top_card_mod13|SUB1|auto_generated|op_1~6_combout")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL X FOR 27.953;
+		LEVEL 1 FOR 4.21;
+		LEVEL 0 FOR 5.79;
+		LEVEL 1 FOR 1.317;
+		LEVEL 0 FOR 2.893;
+		LEVEL 1 FOR 0.516;
+		LEVEL 0 FOR 14.589;
+		LEVEL 1 FOR 0.961;
+		LEVEL 0 FOR 0.766;
+		LEVEL 1 FOR 34.065;
+		LEVEL 0 FOR 0.767;
+		LEVEL 1 FOR 2.047;
+		LEVEL 0 FOR 1.805;
+		LEVEL 1 FOR 0.772;
+		LEVEL 0 FOR 14.228;
+		LEVEL 1 FOR 0.772;
+		LEVEL 0 FOR 8.712;
+		LEVEL 1 FOR 0.516;
+		LEVEL 0 FOR 0.772;
+		LEVEL 1 FOR 0.559;
+		LEVEL 0 FOR 0.622;
+		LEVEL 1 FOR 7.531;
+		LEVEL 0 FOR 0.79;
+		LEVEL 1 FOR 1.057;
+		LEVEL 0 FOR 13.669;
+		LEVEL 1 FOR 4.484;
+		LEVEL 0 FOR 15.516;
+		LEVEL 1 FOR 9.589;
+		LEVEL 0 FOR 2.461;
+		LEVEL 1 FOR 2.434;
+		LEVEL 0 FOR 5.105;
+		LEVEL 1 FOR 4.895;
+		LEVEL 0 FOR 10.897;
+		LEVEL 1 FOR 0.971;
+		LEVEL 0 FOR 54.029;
+		LEVEL 1 FOR 0.971;
+		LEVEL 0 FOR 99.979;
+		LEVEL 1 FOR 0.875;
+		LEVEL 0 FOR 47.278;
+		LEVEL 1 FOR 0.516;
+		LEVEL 0 FOR 0.843;
+		LEVEL 1 FOR 0.622;
+		LEVEL 0 FOR 38.019;
+		LEVEL 1 FOR 21.066;
+		LEVEL 0 FOR 0.766;
+		LEVEL 1 FOR 10.749;
+		LEVEL 0 FOR 27.524;
+		LEVEL 1 FOR 0.685;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 11.679;
+		LEVEL 0 FOR 0.843;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 26.688;
+		LEVEL 1 FOR 1.847;
+		LEVEL 0 FOR 8.943;
+		LEVEL 1 FOR 29.21;
+		LEVEL 0 FOR 0.79;
+		LEVEL 1 FOR 1.057;
+		LEVEL 0 FOR 38.153;
+		LEVEL 1 FOR 22.228;
+		LEVEL 0 FOR 37.877;
+		LEVEL 1 FOR 20.411;
+		LEVEL 0 FOR 1.331;
+		LEVEL 1 FOR 0.622;
+		LEVEL 0 FOR 37.531;
+		LEVEL 1 FOR 21.066;
+		LEVEL 0 FOR 0.766;
+		LEVEL 1 FOR 10.749;
+		LEVEL 0 FOR 27.524;
+		LEVEL 1 FOR 0.685;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 11.679;
+		LEVEL 0 FOR 0.843;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 26.688;
+		LEVEL 1 FOR 1.847;
+		LEVEL 0 FOR 8.943;
+		LEVEL 1 FOR 29.21;
+		LEVEL 0 FOR 0.79;
+		LEVEL 1 FOR 1.057;
+		LEVEL 0 FOR 38.153;
+		LEVEL 1 FOR 26.181;
+		LEVEL 0 FOR 8.819;
+		LEVEL 1 FOR 5.105;
+		LEVEL 0 FOR 4.895;
+		LEVEL 1 FOR 5.105;
+		LEVEL 0 FOR 4.895;
+		LEVEL 1 FOR 5.105;
+		LEVEL 0 FOR 4.895;
+		LEVEL 1 FOR 15.516;
+		LEVEL 0 FOR 15.381;
+		LEVEL 1 FOR 0.767;
+		LEVEL 0 FOR 3.852;
+		LEVEL 1 FOR 30.0;
+		LEVEL 0 FOR 5.665;
+		LEVEL 1 FOR 4.335;
+		LEVEL 0 FOR 1.208;
+		LEVEL 1 FOR 1.709;
+		LEVEL 0 FOR 1.672;
+		LEVEL 1 FOR 5.411;
+		LEVEL 0 FOR 5.381;
+		LEVEL 1 FOR 0.971;
+		LEVEL 0 FOR 14.029;
+		LEVEL 1 FOR 14.208;
+		LEVEL 0 FOR 4.895;
+		LEVEL 1 FOR 2.62;
+		LEVEL 0 FOR 3.17;
+		LEVEL 1 FOR 10.545;
+		LEVEL 0 FOR 26.502;
+	}
+}
+
+TRANSITION_LIST("g58_rules_test_vlg_vec_tst|i1|inst|play_card_mod13|ADD1|auto_generated|op_1~1_combout")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL X FOR 6.512;
+		LEVEL 1 FOR 50.289;
+		LEVEL 0 FOR 0.795;
+		LEVEL 1 FOR 48.803;
+		LEVEL 0 FOR 125.0;
+		LEVEL 1 FOR 1.197;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 29.769;
+		LEVEL 0 FOR 40.231;
+		LEVEL 1 FOR 3.803;
+		LEVEL 0 FOR 45.0;
+		LEVEL 1 FOR 15.0;
+		LEVEL 0 FOR 130.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 100.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 200.0;
+		LEVEL 1 FOR 60.0;
+		LEVEL 0 FOR 50.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 30.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 73.601;
+	}
+}
+
+TRANSITION_LIST("g58_rules_test_vlg_vec_tst|i1|inst|play_card_mod13|ADD1|auto_generated|op_1~0_combout")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL X FOR 5.964;
+		LEVEL 1 FOR 100.439;
+		LEVEL 0 FOR 50.958;
+		LEVEL 1 FOR 49.042;
+		LEVEL 0 FOR 16.218;
+		LEVEL 1 FOR 4.74;
+		LEVEL 0 FOR 4.042;
+		LEVEL 1 FOR 10.425;
+		LEVEL 0 FOR 0.793;
+		LEVEL 1 FOR 53.782;
+		LEVEL 0 FOR 16.218;
+		LEVEL 1 FOR 3.782;
+		LEVEL 0 FOR 0.958;
+		LEVEL 1 FOR 25.26;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 23.782;
+		LEVEL 0 FOR 5.958;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 34.042;
+		LEVEL 1 FOR 0.958;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 9.042;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 0.958;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 9.042;
+		LEVEL 0 FOR 10.958;
+		LEVEL 1 FOR 30.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 30.0;
+		LEVEL 0 FOR 19.042;
+		LEVEL 1 FOR 0.958;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 9.042;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 0.958;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 9.042;
+		LEVEL 0 FOR 10.958;
+		LEVEL 1 FOR 30.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 30.0;
+		LEVEL 0 FOR 64.467;
+		LEVEL 1 FOR 64.575;
+		LEVEL 0 FOR 1.218;
+		LEVEL 1 FOR 128.782;
+		LEVEL 0 FOR 1.218;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 19.74;
+		LEVEL 1 FOR 15.26;
+		LEVEL 0 FOR 3.782;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 30.0;
+		LEVEL 0 FOR 5.958;
+		LEVEL 1 FOR 30.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.26;
+		LEVEL 0 FOR 47.379;
+	}
+}
+
+TRANSITION_LIST("g58_rules_test_vlg_vec_tst|i1|inst|play_card_mod13|ADD1|auto_generated|op_1~2_combout")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL X FOR 6.102;
+		LEVEL 0 FOR 150.844;
+		LEVEL 1 FOR 50.071;
+		LEVEL 0 FOR 25.192;
+		LEVEL 1 FOR 49.737;
+		LEVEL 0 FOR 25.0;
+		LEVEL 1 FOR 40.0;
+		LEVEL 0 FOR 15.263;
+		LEVEL 1 FOR 30.766;
+		LEVEL 0 FOR 74.042;
+		LEVEL 1 FOR 0.958;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 9.042;
+		LEVEL 0 FOR 39.929;
+		LEVEL 1 FOR 1.029;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 28.971;
+		LEVEL 0 FOR 40.0;
+		LEVEL 1 FOR 40.0;
+		LEVEL 0 FOR 20.263;
+		LEVEL 1 FOR 59.737;
+		LEVEL 0 FOR 65.496;
+		LEVEL 1 FOR 64.575;
+		LEVEL 0 FOR 1.218;
+		LEVEL 1 FOR 128.628;
+		LEVEL 0 FOR 31.112;
+		LEVEL 1 FOR 8.971;
+		LEVEL 0 FOR 35.0;
+		LEVEL 1 FOR 65.0;
+		LEVEL 0 FOR 16.029;
+		LEVEL 1 FOR 10.26;
+		LEVEL 0 FOR 46.765;
+	}
+}
+
+TRANSITION_LIST("g58_rules_test_vlg_vec_tst|i1|inst|play_card_mod13|ADD3|auto_generated|op_1~0_combout")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL X FOR 6.748;
+		LEVEL 0 FOR 50.873;
+		LEVEL 1 FOR 50.0;
+		LEVEL 0 FOR 49.971;
+		LEVEL 1 FOR 50.071;
+		LEVEL 0 FOR 14.958;
+		LEVEL 1 FOR 59.971;
+		LEVEL 0 FOR 25.0;
+		LEVEL 1 FOR 23.877;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 6.123;
+		LEVEL 0 FOR 5.029;
+		LEVEL 1 FOR 33.848;
+		LEVEL 0 FOR 7.152;
+		LEVEL 1 FOR 9.0;
+		LEVEL 0 FOR 65.042;
+		LEVEL 1 FOR 0.958;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 48.971;
+		LEVEL 0 FOR 1.029;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 27.848;
+		LEVEL 1 FOR 1.123;
+		LEVEL 0 FOR 40.0;
+		LEVEL 1 FOR 118.877;
+		LEVEL 0 FOR 66.619;
+		LEVEL 1 FOR 65.793;
+		LEVEL 0 FOR 67.588;
+		LEVEL 1 FOR 71.152;
+		LEVEL 0 FOR 15.0;
+		LEVEL 1 FOR 6.0;
+		LEVEL 0 FOR 7.848;
+		LEVEL 1 FOR 6.152;
+		LEVEL 0 FOR 29.971;
+		LEVEL 1 FOR 63.877;
+		LEVEL 0 FOR 1.123;
+		LEVEL 1 FOR 16.029;
+		LEVEL 0 FOR 9.0;
+		LEVEL 1 FOR 1.26;
+		LEVEL 0 FOR 28.74;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 7.379;
+	}
+}
+
+TRANSITION_LIST("g58_rules_test_vlg_vec_tst|i1|inst|play_card_mod13|ADD1|auto_generated|op_1~4_combout")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL X FOR 6.753;
+		LEVEL 0 FOR 99.72;
+		LEVEL 1 FOR 100.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 16.153;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 13.847;
+		LEVEL 0 FOR 30.0;
+		LEVEL 1 FOR 6.153;
+		LEVEL 0 FOR 18.847;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 1.153;
+		LEVEL 1 FOR 20.228;
+		LEVEL 0 FOR 23.619;
+		LEVEL 1 FOR 7.147;
+		LEVEL 0 FOR 133.971;
+		LEVEL 1 FOR 1.029;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 27.853;
+		LEVEL 0 FOR 1.153;
+		LEVEL 1 FOR 100.228;
+		LEVEL 0 FOR 58.619;
+		LEVEL 1 FOR 1.153;
+		LEVEL 0 FOR 131.254;
+		LEVEL 1 FOR 67.593;
+		LEVEL 0 FOR 1.153;
+		LEVEL 1 FOR 58.847;
+		LEVEL 0 FOR 32.147;
+		LEVEL 1 FOR 7.853;
+		LEVEL 0 FOR 1.118;
+		LEVEL 1 FOR 8.882;
+		LEVEL 0 FOR 15.0;
+		LEVEL 1 FOR 31.153;
+		LEVEL 0 FOR 43.847;
+		LEVEL 1 FOR 1.118;
+		LEVEL 0 FOR 16.029;
+		LEVEL 1 FOR 9.006;
+		LEVEL 0 FOR 3.847;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 30.0;
+		LEVEL 1 FOR 3.527;
+	}
+}
+
+TRANSITION_LIST("g58_rules_test_vlg_vec_tst|i1|inst|play_card_mod13|SUB1|auto_generated|op_1~1")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL X FOR 5.884;
+		LEVEL 1 FOR 52.82;
+		LEVEL 0 FOR 48.044;
+		LEVEL 1 FOR 51.924;
+		LEVEL 0 FOR 50.071;
+		LEVEL 1 FOR 14.961;
+		LEVEL 0 FOR 8.044;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 1.956;
+		LEVEL 1 FOR 64.968;
+		LEVEL 0 FOR 5.032;
+		LEVEL 1 FOR 30.0;
+		LEVEL 0 FOR 4.968;
+		LEVEL 1 FOR 5.032;
+		LEVEL 0 FOR 8.044;
+		LEVEL 1 FOR 32.953;
+		LEVEL 0 FOR 9.003;
+		LEVEL 1 FOR 65.039;
+		LEVEL 0 FOR 0.958;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 48.971;
+		LEVEL 1 FOR 1.029;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 68.971;
+		LEVEL 0 FOR 60.263;
+		LEVEL 1 FOR 187.813;
+		LEVEL 0 FOR 3.213;
+		LEVEL 1 FOR 126.787;
+		LEVEL 0 FOR 11.956;
+		LEVEL 1 FOR 18.044;
+		LEVEL 0 FOR 2.953;
+		LEVEL 1 FOR 108.971;
+		LEVEL 0 FOR 16.029;
+		LEVEL 1 FOR 39.003;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 6.296;
+	}
+}
+
+TRANSITION_LIST("g58_rules_test_vlg_vec_tst|i1|inst|play_card_mod13|SUB1|auto_generated|op_1~3")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL X FOR 6.706;
+		LEVEL 0 FOR 52.078;
+		LEVEL 1 FOR 48.044;
+		LEVEL 0 FOR 0.688;
+		LEVEL 1 FOR 50.043;
+		LEVEL 0 FOR 1.193;
+		LEVEL 1 FOR 48.764;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 16.268;
+		LEVEL 0 FOR 28.775;
+		LEVEL 1 FOR 4.957;
+		LEVEL 0 FOR 30.0;
+		LEVEL 1 FOR 6.268;
+		LEVEL 0 FOR 30.0;
+		LEVEL 1 FOR 4.968;
+		LEVEL 0 FOR 5.032;
+		LEVEL 1 FOR 8.044;
+		LEVEL 0 FOR 30.731;
+		LEVEL 1 FOR 2.104;
+		LEVEL 0 FOR 0.118;
+		LEVEL 1 FOR 9.003;
+		LEVEL 0 FOR 65.039;
+		LEVEL 1 FOR 0.958;
+		LEVEL 0 FOR 17.778;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 2.104;
+		LEVEL 0 FOR 0.118;
+		LEVEL 1 FOR 7.778;
+		LEVEL 0 FOR 2.104;
+		LEVEL 1 FOR 0.118;
+		LEVEL 0 FOR 7.778;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 11.11;
+		LEVEL 1 FOR 8.89;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 61.456;
+		LEVEL 0 FOR 58.544;
+		LEVEL 1 FOR 1.11;
+		LEVEL 0 FOR 128.159;
+		LEVEL 1 FOR 0.731;
+		LEVEL 0 FOR 2.364;
+		LEVEL 1 FOR 0.118;
+		LEVEL 0 FOR 126.787;
+		LEVEL 1 FOR 0.688;
+		LEVEL 0 FOR 29.312;
+		LEVEL 1 FOR 0.731;
+		LEVEL 0 FOR 2.104;
+		LEVEL 1 FOR 0.118;
+		LEVEL 0 FOR 32.735;
+		LEVEL 1 FOR 10.043;
+		LEVEL 0 FOR 70.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 2.104;
+		LEVEL 1 FOR 0.118;
+		LEVEL 0 FOR 39.003;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 3.732;
+		LEVEL 1 FOR 2.484;
+	}
+}
+
+TRANSITION_LIST("g58_rules_test_vlg_vec_tst|i1|inst|play_card_mod13|SUB1|auto_generated|op_1~4_combout")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL X FOR 7.75;
+		LEVEL 1 FOR 50.873;
+		LEVEL 0 FOR 0.619;
+		LEVEL 1 FOR 47.556;
+		LEVEL 0 FOR 0.488;
+		LEVEL 1 FOR 0.688;
+		LEVEL 0 FOR 0.649;
+		LEVEL 1 FOR 48.175;
+		LEVEL 0 FOR 1.219;
+		LEVEL 1 FOR 0.577;
+		LEVEL 0 FOR 0.616;
+		LEVEL 1 FOR 47.588;
+		LEVEL 0 FOR 1.176;
+		LEVEL 1 FOR 0.691;
+		LEVEL 0 FOR 14.958;
+		LEVEL 1 FOR 4.351;
+		LEVEL 0 FOR 3.824;
+		LEVEL 1 FOR 12.444;
+		LEVEL 0 FOR 28.775;
+		LEVEL 1 FOR 4.957;
+		LEVEL 0 FOR 5.62;
+		LEVEL 1 FOR 13.204;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 1.176;
+		LEVEL 0 FOR 0.62;
+		LEVEL 1 FOR 5.648;
+		LEVEL 0 FOR 2.556;
+		LEVEL 1 FOR 15.673;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 1.771;
+		LEVEL 0 FOR 4.352;
+		LEVEL 1 FOR 0.616;
+		LEVEL 0 FOR 4.413;
+		LEVEL 1 FOR 0.619;
+		LEVEL 0 FOR 7.556;
+		LEVEL 1 FOR 0.488;
+		LEVEL 0 FOR 14.512;
+		LEVEL 1 FOR 10.673;
+		LEVEL 0 FOR 5.546;
+		LEVEL 1 FOR 1.606;
+		LEVEL 0 FOR 9.0;
+		LEVEL 1 FOR 0.619;
+		LEVEL 0 FOR 22.556;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 1.867;
+		LEVEL 0 FOR 1.574;
+		LEVEL 1 FOR 9.384;
+		LEVEL 0 FOR 7.175;
+		LEVEL 1 FOR 1.219;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 8.781;
+		LEVEL 0 FOR 1.219;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 8.781;
+		LEVEL 1 FOR 1.219;
+		LEVEL 0 FOR 0.577;
+		LEVEL 1 FOR 1.029;
+		LEVEL 0 FOR 8.394;
+		LEVEL 1 FOR 1.606;
+		LEVEL 0 FOR 7.175;
+		LEVEL 1 FOR 1.219;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 8.781;
+		LEVEL 0 FOR 0.673;
+		LEVEL 1 FOR 1.123;
+		LEVEL 0 FOR 0.533;
+		LEVEL 1 FOR 8.89;
+		LEVEL 0 FOR 8.781;
+		LEVEL 1 FOR 1.219;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 8.781;
+		LEVEL 0 FOR 1.219;
+		LEVEL 1 FOR 0.577;
+		LEVEL 0 FOR 18.204;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 2.675;
+		LEVEL 0 FOR 17.325;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 0.673;
+		LEVEL 0 FOR 0.546;
+		LEVEL 1 FOR 1.11;
+		LEVEL 0 FOR 62.671;
+		LEVEL 1 FOR 2.292;
+		LEVEL 0 FOR 62.708;
+		LEVEL 1 FOR 0.488;
+		LEVEL 0 FOR 0.731;
+		LEVEL 1 FOR 1.866;
+		LEVEL 0 FOR 66.915;
+		LEVEL 1 FOR 0.673;
+		LEVEL 0 FOR 59.327;
+		LEVEL 1 FOR 0.488;
+		LEVEL 0 FOR 0.688;
+		LEVEL 1 FOR 10.649;
+		LEVEL 0 FOR 15.0;
+		LEVEL 1 FOR 3.663;
+		LEVEL 0 FOR 0.731;
+		LEVEL 1 FOR 1.606;
+		LEVEL 0 FOR 7.848;
+		LEVEL 1 FOR 6.152;
+		LEVEL 0 FOR 3.175;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 6.176;
+		LEVEL 1 FOR 10.043;
+		LEVEL 0 FOR 0.577;
+		LEVEL 1 FOR 3.204;
+		LEVEL 0 FOR 30.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 0.673;
+		LEVEL 0 FOR 1.123;
+		LEVEL 1 FOR 4.423;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 1.606;
+		LEVEL 0 FOR 9.0;
+		LEVEL 1 FOR 1.26;
+		LEVEL 0 FOR 28.74;
+		LEVEL 1 FOR 0.619;
+		LEVEL 0 FOR 9.381;
+		LEVEL 1 FOR 0.619;
+		LEVEL 0 FOR 2.556;
+		LEVEL 1 FOR 1.176;
+		LEVEL 0 FOR 2.026;
+	}
+}
+
+TRANSITION_LIST("g58_rules_test_vlg_vec_tst|i1|inst|play_card_mod13|ADD3|auto_generated|op_1~1_combout")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL X FOR 6.748;
+		LEVEL 0 FOR 50.878;
+		LEVEL 1 FOR 48.845;
+		LEVEL 0 FOR 1.155;
+		LEVEL 1 FOR 49.966;
+		LEVEL 0 FOR 48.879;
+		LEVEL 1 FOR 1.192;
+		LEVEL 0 FOR 14.963;
+		LEVEL 1 FOR 3.845;
+		LEVEL 0 FOR 50.0;
+		LEVEL 1 FOR 6.121;
+		LEVEL 0 FOR 23.879;
+		LEVEL 1 FOR 1.121;
+		LEVEL 0 FOR 23.879;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 6.121;
+		LEVEL 1 FOR 5.034;
+		LEVEL 0 FOR 33.845;
+		LEVEL 1 FOR 16.155;
+		LEVEL 0 FOR 65.037;
+		LEVEL 1 FOR 0.958;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 87.85;
+		LEVEL 0 FOR 1.121;
+		LEVEL 1 FOR 40.0;
+		LEVEL 0 FOR 118.879;
+		LEVEL 1 FOR 1.121;
+		LEVEL 0 FOR 65.496;
+		LEVEL 1 FOR 133.383;
+		LEVEL 0 FOR 60.0;
+		LEVEL 1 FOR 11.155;
+		LEVEL 0 FOR 15.0;
+		LEVEL 1 FOR 13.845;
+		LEVEL 0 FOR 6.155;
+		LEVEL 1 FOR 3.845;
+		LEVEL 0 FOR 15.0;
+		LEVEL 1 FOR 11.121;
+		LEVEL 0 FOR 63.879;
+		LEVEL 1 FOR 27.41;
+		LEVEL 0 FOR 2.59;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 16.155;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 3.845;
+		LEVEL 1 FOR 3.529;
+	}
+}
+
+TRANSITION_LIST("g58_rules_test_vlg_vec_tst|i1|inst|play_card_mod13|SUB1|auto_generated|op_1~5")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL X FOR 6.786;
+		LEVEL 1 FOR 52.078;
+		LEVEL 0 FOR 97.906;
+		LEVEL 1 FOR 2.062;
+		LEVEL 0 FOR 49.807;
+		LEVEL 1 FOR 14.958;
+		LEVEL 0 FOR 20.267;
+		LEVEL 1 FOR 28.775;
+		LEVEL 0 FOR 4.957;
+		LEVEL 1 FOR 30.972;
+		LEVEL 0 FOR 5.296;
+		LEVEL 1 FOR 2.906;
+		LEVEL 0 FOR 15.675;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 6.387;
+		LEVEL 1 FOR 4.765;
+		LEVEL 0 FOR 8.311;
+		LEVEL 1 FOR 14.862;
+		LEVEL 0 FOR 10.675;
+		LEVEL 1 FOR 5.194;
+		LEVEL 0 FOR 11.225;
+		LEVEL 1 FOR 65.039;
+		LEVEL 0 FOR 0.694;
+		LEVEL 1 FOR 17.173;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 0.869;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 9.131;
+		LEVEL 0 FOR 12.827;
+		LEVEL 1 FOR 0.146;
+		LEVEL 0 FOR 0.118;
+		LEVEL 1 FOR 27.584;
+		LEVEL 0 FOR 1.123;
+		LEVEL 1 FOR 0.181;
+		LEVEL 0 FOR 8.89;
+		LEVEL 1 FOR 30.0;
+		LEVEL 0 FOR 61.456;
+		LEVEL 1 FOR 17.675;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 0.675;
+		LEVEL 1 FOR 0.194;
+		LEVEL 0 FOR 1.11;
+		LEVEL 1 FOR 128.021;
+		LEVEL 0 FOR 3.087;
+		LEVEL 1 FOR 0.146;
+		LEVEL 0 FOR 0.118;
+		LEVEL 1 FOR 126.649;
+		LEVEL 0 FOR 11.827;
+		LEVEL 1 FOR 15.0;
+		LEVEL 0 FOR 6.0;
+		LEVEL 1 FOR 0.146;
+		LEVEL 0 FOR 0.118;
+		LEVEL 1 FOR 7.584;
+		LEVEL 0 FOR 6.152;
+		LEVEL 1 FOR 18.999;
+		LEVEL 0 FOR 10.043;
+		LEVEL 1 FOR 0.929;
+		LEVEL 0 FOR 3.202;
+		LEVEL 1 FOR 30.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 0.675;
+		LEVEL 1 FOR 1.123;
+		LEVEL 0 FOR 16.029;
+		LEVEL 1 FOR 0.146;
+		LEVEL 0 FOR 0.118;
+		LEVEL 1 FOR 8.736;
+		LEVEL 0 FOR 1.26;
+		LEVEL 1 FOR 28.74;
+		LEVEL 0 FOR 10.267;
+		LEVEL 1 FOR 6.136;
+	}
+}
+
+TRANSITION_LIST("g58_rules_test_vlg_vec_tst|i1|inst|play_card_mod13|SUB1|auto_generated|op_1~6_combout")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL X FOR 7.813;
+		LEVEL 0 FOR 50.878;
+		LEVEL 1 FOR 0.631;
+		LEVEL 0 FOR 48.214;
+		LEVEL 1 FOR 1.155;
+		LEVEL 0 FOR 47.971;
+		LEVEL 1 FOR 0.566;
+		LEVEL 0 FOR 1.429;
+		LEVEL 1 FOR 0.633;
+		LEVEL 0 FOR 47.372;
+		LEVEL 1 FOR 0.874;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 4.126;
+		LEVEL 0 FOR 12.66;
+		LEVEL 1 FOR 7.34;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 11.435;
+		LEVEL 0 FOR 4.439;
+		LEVEL 1 FOR 0.518;
+		LEVEL 0 FOR 3.608;
+		LEVEL 1 FOR 1.995;
+		LEVEL 0 FOR 23.005;
+		LEVEL 1 FOR 0.874;
+		LEVEL 0 FOR 6.786;
+		LEVEL 1 FOR 2.906;
+		LEVEL 0 FOR 29.434;
+		LEVEL 1 FOR 1.995;
+		LEVEL 0 FOR 0.633;
+		LEVEL 1 FOR 13.076;
+		LEVEL 0 FOR 4.296;
+		LEVEL 1 FOR 10.566;
+		LEVEL 0 FOR 15.869;
+		LEVEL 1 FOR 3.565;
+		LEVEL 0 FOR 7.029;
+		LEVEL 1 FOR 0.631;
+		LEVEL 0 FOR 42.34;
+		LEVEL 1 FOR 22.066;
+		LEVEL 0 FOR 1.327;
+		LEVEL 1 FOR 9.631;
+		LEVEL 0 FOR 6.976;
+		LEVEL 1 FOR 0.566;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 0.869;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 8.565;
+		LEVEL 0 FOR 0.566;
+		LEVEL 1 FOR 13.091;
+		LEVEL 0 FOR 26.343;
+		LEVEL 1 FOR 2.545;
+		LEVEL 0 FOR 8.89;
+		LEVEL 1 FOR 28.565;
+		LEVEL 0 FOR 1.435;
+		LEVEL 1 FOR 0.56;
+		LEVEL 0 FOR 38.005;
+		LEVEL 1 FOR 22.891;
+		LEVEL 0 FOR 17.109;
+		LEVEL 1 FOR 0.566;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 19.434;
+		LEVEL 0 FOR 1.995;
+		LEVEL 1 FOR 0.55;
+		LEVEL 0 FOR 62.455;
+		LEVEL 1 FOR 2.491;
+		LEVEL 0 FOR 63.075;
+		LEVEL 1 FOR 3.351;
+		LEVEL 0 FOR 66.083;
+		LEVEL 1 FOR 0.874;
+		LEVEL 0 FOR 84.126;
+		LEVEL 1 FOR 8.657;
+		LEVEL 0 FOR 6.343;
+		LEVEL 1 FOR 10.874;
+		LEVEL 0 FOR 15.0;
+		LEVEL 1 FOR 0.518;
+		LEVEL 0 FOR 8.608;
+		LEVEL 1 FOR 1.435;
+		LEVEL 0 FOR 4.131;
+		LEVEL 1 FOR 4.434;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 15.566;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 9.434;
+		LEVEL 0 FOR 1.241;
+		LEVEL 1 FOR 1.123;
+		LEVEL 0 FOR 12.636;
+		LEVEL 1 FOR 3.657;
+		LEVEL 0 FOR 8.736;
+		LEVEL 1 FOR 2.607;
+		LEVEL 0 FOR 0.874;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 9.126;
+		LEVEL 1 FOR 15.0;
+		LEVEL 0 FOR 2.029;
+		LEVEL 1 FOR 0.631;
+		LEVEL 0 FOR 3.214;
+		LEVEL 1 FOR 2.464;
+	}
+}
+
+TRANSITION_LIST("g58_rules_test_vlg_vec_tst|i1|inst|Equal3~1_combout")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL X FOR 28.748;
+		LEVEL 0 FOR 15.146;
+		LEVEL 1 FOR 0.788;
+		LEVEL 0 FOR 54.572;
+		LEVEL 1 FOR 8.18;
+		LEVEL 0 FOR 1.745;
+		LEVEL 1 FOR 4.303;
+		LEVEL 0 FOR 11.331;
+		LEVEL 1 FOR 0.614;
+		LEVEL 0 FOR 27.539;
+		LEVEL 1 FOR 4.184;
+		LEVEL 0 FOR 6.598;
+		LEVEL 1 FOR 4.734;
+		LEVEL 0 FOR 10.266;
+		LEVEL 1 FOR 1.776;
+		LEVEL 0 FOR 5.492;
+		LEVEL 1 FOR 0.786;
+		LEVEL 0 FOR 6.164;
+		LEVEL 1 FOR 1.173;
+		LEVEL 0 FOR 14.471;
+		LEVEL 1 FOR 0.691;
+		LEVEL 0 FOR 14.958;
+		LEVEL 1 FOR 3.765;
+		LEVEL 0 FOR 4.41;
+		LEVEL 1 FOR 12.444;
+		LEVEL 0 FOR 28.707;
+		LEVEL 1 FOR 4.439;
+		LEVEL 0 FOR 6.121;
+		LEVEL 1 FOR 13.289;
+		LEVEL 0 FOR 11.176;
+		LEVEL 1 FOR 6.268;
+		LEVEL 0 FOR 2.838;
+		LEVEL 1 FOR 15.391;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 1.771;
+		LEVEL 0 FOR 4.267;
+		LEVEL 1 FOR 0.701;
+		LEVEL 0 FOR 27.87;
+		LEVEL 1 FOR 10.391;
+		LEVEL 0 FOR 20.375;
+		LEVEL 1 FOR 0.843;
+		LEVEL 0 FOR 0.622;
+		LEVEL 1 FOR 37.203;
+		LEVEL 0 FOR 0.816;
+		LEVEL 1 FOR 21.066;
+		LEVEL 0 FOR 1.843;
+		LEVEL 1 FOR 9.384;
+		LEVEL 0 FOR 0.694;
+		LEVEL 1 FOR 6.197;
+		LEVEL 0 FOR 0.566;
+		LEVEL 1 FOR 39.434;
+		LEVEL 0 FOR 0.566;
+		LEVEL 1 FOR 1.514;
+		LEVEL 0 FOR 2.048;
+		LEVEL 1 FOR 8.981;
+		LEVEL 0 FOR 1.019;
+		LEVEL 1 FOR 25.872;
+		LEVEL 0 FOR 2.08;
+		LEVEL 1 FOR 37.92;
+		LEVEL 0 FOR 0.816;
+		LEVEL 1 FOR 1.264;
+		LEVEL 0 FOR 0.996;
+		LEVEL 1 FOR 36.924;
+		LEVEL 0 FOR 0.816;
+		LEVEL 1 FOR 1.86;
+		LEVEL 0 FOR 0.601;
+		LEVEL 1 FOR 36.723;
+		LEVEL 0 FOR 0.566;
+		LEVEL 1 FOR 1.885;
+		LEVEL 0 FOR 0.826;
+		LEVEL 1 FOR 36.723;
+		LEVEL 0 FOR 1.503;
+		LEVEL 1 FOR 0.492;
+		LEVEL 0 FOR 1.29;
+		LEVEL 1 FOR 17.278;
+		LEVEL 0 FOR 44.721;
+		LEVEL 1 FOR 2.292;
+		LEVEL 0 FOR 6.227;
+		LEVEL 1 FOR 6.76;
+		LEVEL 0 FOR 1.035;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 31.687;
+		LEVEL 1 FOR 0.843;
+		LEVEL 0 FOR 6.644;
+		LEVEL 1 FOR 9.791;
+		LEVEL 0 FOR 1.035;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 49.276;
+		LEVEL 1 FOR 0.724;
+		LEVEL 0 FOR 1.478;
+		LEVEL 1 FOR 17.487;
+		LEVEL 0 FOR 51.546;
+		LEVEL 1 FOR 3.707;
+		LEVEL 0 FOR 11.293;
+		LEVEL 1 FOR 3.454;
+		LEVEL 0 FOR 3.094;
+		LEVEL 1 FOR 2.159;
+		LEVEL 0 FOR 4.184;
+		LEVEL 1 FOR 0.563;
+		LEVEL 0 FOR 5.253;
+		LEVEL 1 FOR 1.293;
+		LEVEL 0 FOR 1.753;
+		LEVEL 1 FOR 1.422;
+		LEVEL 0 FOR 11.048;
+		LEVEL 1 FOR 4.542;
+		LEVEL 0 FOR 4.689;
+		LEVEL 1 FOR 4.437;
+		LEVEL 0 FOR 2.676;
+		LEVEL 1 FOR 2.608;
+		LEVEL 0 FOR 14.716;
+		LEVEL 1 FOR 15.566;
+		LEVEL 0 FOR 0.766;
+		LEVEL 1 FOR 5.657;
+		LEVEL 0 FOR 13.577;
+		LEVEL 1 FOR 0.766;
+		LEVEL 0 FOR 9.625;
+		LEVEL 1 FOR 0.284;
+		LEVEL 0 FOR 5.262;
+		LEVEL 1 FOR 4.06;
+		LEVEL 0 FOR 4.437;
+		LEVEL 1 FOR 1.503;
+		LEVEL 0 FOR 1.606;
+		LEVEL 1 FOR 0.548;
+		LEVEL 0 FOR 8.452;
+		LEVEL 1 FOR 0.284;
+		LEVEL 0 FOR 11.375;
+		LEVEL 1 FOR 2.106;
+		LEVEL 0 FOR 7.2;
+		LEVEL 1 FOR 1.926;
+		LEVEL 0 FOR 15.0;
+		LEVEL 1 FOR 2.109;
+		LEVEL 0 FOR 0.551;
+		LEVEL 1 FOR 2.624;
+		LEVEL 0 FOR 2.566;
+	}
+}
+
+TRANSITION_LIST("g58_rules_test_vlg_vec_tst|i1|inst|top_card_mod13|SUB1|auto_generated|op_1~0_combout")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL X FOR 23.439;
+		LEVEL 0 FOR 15.0;
+		LEVEL 1 FOR 15.0;
+		LEVEL 0 FOR 4.467;
+		LEVEL 1 FOR 35.533;
+		LEVEL 0 FOR 1.692;
+		LEVEL 1 FOR 7.623;
+		LEVEL 0 FOR 20.685;
+		LEVEL 1 FOR 0.601;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 3.714;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 16.539;
+		LEVEL 1 FOR 3.613;
+		LEVEL 0 FOR 4.848;
+		LEVEL 1 FOR 10.685;
+		LEVEL 0 FOR 4.315;
+		LEVEL 1 FOR 50.0;
+		LEVEL 0 FOR 0.685;
+		LEVEL 1 FOR 49.315;
+		LEVEL 0 FOR 0.685;
+		LEVEL 1 FOR 49.315;
+		LEVEL 0 FOR 1.539;
+		LEVEL 1 FOR 49.259;
+		LEVEL 0 FOR 59.354;
+		LEVEL 1 FOR 1.324;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 49.81;
+		LEVEL 0 FOR 0.692;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 28.707;
+		LEVEL 1 FOR 0.601;
+		LEVEL 0 FOR 40.0;
+		LEVEL 1 FOR 39.399;
+		LEVEL 0 FOR 0.601;
+		LEVEL 1 FOR 19.174;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 0.826;
+		LEVEL 0 FOR 39.399;
+		LEVEL 1 FOR 0.601;
+		LEVEL 0 FOR 58.866;
+		LEVEL 1 FOR 1.324;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 49.81;
+		LEVEL 0 FOR 0.692;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 28.707;
+		LEVEL 1 FOR 0.601;
+		LEVEL 0 FOR 40.0;
+		LEVEL 1 FOR 39.399;
+		LEVEL 0 FOR 0.601;
+		LEVEL 1 FOR 33.714;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 1.286;
+		LEVEL 0 FOR 4.174;
+		LEVEL 1 FOR 4.54;
+		LEVEL 0 FOR 11.286;
+		LEVEL 1 FOR 29.399;
+		LEVEL 0 FOR 15.0;
+		LEVEL 1 FOR 24.315;
+		LEVEL 0 FOR 6.665;
+		LEVEL 1 FOR 14.02;
+		LEVEL 0 FOR 15.0;
+		LEVEL 1 FOR 4.315;
+		LEVEL 0 FOR 16.286;
+		LEVEL 1 FOR 3.714;
+		LEVEL 0 FOR 1.978;
+		LEVEL 1 FOR 8.174;
+		LEVEL 0 FOR 4.848;
+		LEVEL 1 FOR 10.685;
+		LEVEL 0 FOR 11.561;
+	}
+}
+
+TRANSITION_LIST("g58_rules_test_vlg_vec_tst|i1|inst|top_card_mod13|SUB1|auto_generated|op_1~4_combout")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL X FOR 27.873;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 1.317;
+		LEVEL 0 FOR 3.829;
+		LEVEL 1 FOR 0.788;
+		LEVEL 0 FOR 9.066;
+		LEVEL 1 FOR 0.522;
+		LEVEL 0 FOR 3.443;
+		LEVEL 1 FOR 1.725;
+		LEVEL 0 FOR 34.832;
+		LEVEL 1 FOR 2.047;
+		LEVEL 0 FOR 2.577;
+		LEVEL 1 FOR 15.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 1.533;
+		LEVEL 0 FOR 8.321;
+		LEVEL 1 FOR 1.478;
+		LEVEL 0 FOR 14.456;
+		LEVEL 1 FOR 9.457;
+		LEVEL 0 FOR 4.609;
+		LEVEL 1 FOR 13.965;
+		LEVEL 0 FOR 1.035;
+		LEVEL 1 FOR 1.776;
+		LEVEL 0 FOR 5.492;
+		LEVEL 1 FOR 0.786;
+		LEVEL 0 FOR 0.911;
+		LEVEL 1 FOR 1.725;
+		LEVEL 0 FOR 0.786;
+		LEVEL 1 FOR 3.915;
+		LEVEL 0 FOR 10.131;
+		LEVEL 1 FOR 0.556;
+		LEVEL 0 FOR 2.887;
+		LEVEL 1 FOR 51.557;
+		LEVEL 0 FOR 0.556;
+		LEVEL 1 FOR 47.887;
+		LEVEL 0 FOR 1.969;
+		LEVEL 1 FOR 48.031;
+		LEVEL 0 FOR 1.035;
+		LEVEL 1 FOR 48.965;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 13.24;
+		LEVEL 0 FOR 6.76;
+		LEVEL 1 FOR 1.035;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 8.965;
+		LEVEL 0 FOR 1.035;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 8.965;
+		LEVEL 1 FOR 1.035;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 2.17;
+		LEVEL 0 FOR 6.795;
+		LEVEL 1 FOR 1.035;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 8.965;
+		LEVEL 0 FOR 2.513;
+		LEVEL 1 FOR 8.522;
+		LEVEL 0 FOR 8.965;
+		LEVEL 1 FOR 1.035;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 8.965;
+		LEVEL 0 FOR 1.035;
+		LEVEL 1 FOR 1.478;
+		LEVEL 0 FOR 17.487;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 2.113;
+		LEVEL 1 FOR 0.601;
+		LEVEL 0 FOR 17.286;
+		LEVEL 1 FOR 2.473;
+		LEVEL 0 FOR 17.527;
+		LEVEL 1 FOR 1.888;
+		LEVEL 0 FOR 0.826;
+		LEVEL 1 FOR 17.286;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 2.714;
+		LEVEL 0 FOR 17.286;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 13.24;
+		LEVEL 0 FOR 6.76;
+		LEVEL 1 FOR 1.035;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 8.965;
+		LEVEL 0 FOR 1.035;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 8.965;
+		LEVEL 1 FOR 1.035;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 2.17;
+		LEVEL 0 FOR 6.795;
+		LEVEL 1 FOR 1.035;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 8.965;
+		LEVEL 0 FOR 2.513;
+		LEVEL 1 FOR 8.522;
+		LEVEL 0 FOR 8.965;
+		LEVEL 1 FOR 1.035;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 8.965;
+		LEVEL 0 FOR 1.035;
+		LEVEL 1 FOR 1.478;
+		LEVEL 0 FOR 17.487;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 2.113;
+		LEVEL 1 FOR 0.601;
+		LEVEL 0 FOR 22.286;
+		LEVEL 1 FOR 1.426;
+		LEVEL 0 FOR 13.574;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 8.299;
+		LEVEL 0 FOR 21.701;
+		LEVEL 1 FOR 6.557;
+		LEVEL 0 FOR 0.556;
+		LEVEL 1 FOR 12.887;
+		LEVEL 0 FOR 1.035;
+		LEVEL 1 FOR 0.522;
+		LEVEL 0 FOR 18.443;
+		LEVEL 1 FOR 6.426;
+		LEVEL 0 FOR 5.543;
+		LEVEL 1 FOR 1.709;
+		LEVEL 0 FOR 1.322;
+		LEVEL 1 FOR 1.888;
+		LEVEL 0 FOR 9.669;
+		LEVEL 1 FOR 0.556;
+		LEVEL 0 FOR 12.887;
+		LEVEL 1 FOR 1.557;
+		LEVEL 0 FOR 13.443;
+		LEVEL 1 FOR 7.513;
+		LEVEL 0 FOR 3.522;
+		LEVEL 1 FOR 2.17;
+		LEVEL 0 FOR 6.795;
+		LEVEL 1 FOR 2.511;
+		LEVEL 0 FOR 8.524;
+		LEVEL 1 FOR 5.522;
+		LEVEL 0 FOR 11.605;
+	}
+}
+
+TRANSITION_LIST("g58_rules_test_vlg_vec_tst|i1|inst|Equal0~0_combout")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL X FOR 24.232;
+		LEVEL 0 FOR 34.633;
+		LEVEL 1 FOR 0.182;
+		LEVEL 0 FOR 40.04;
+		LEVEL 1 FOR 4.46;
+		LEVEL 0 FOR 83.775;
+		LEVEL 1 FOR 0.582;
+		LEVEL 0 FOR 20.643;
+		LEVEL 1 FOR 49.727;
+		LEVEL 0 FOR 1.393;
+		LEVEL 1 FOR 47.655;
+		LEVEL 0 FOR 1.969;
+		LEVEL 1 FOR 48.031;
+		LEVEL 0 FOR 3.199;
+		LEVEL 1 FOR 46.801;
+		LEVEL 0 FOR 61.849;
+		LEVEL 1 FOR 0.46;
+		LEVEL 0 FOR 38.958;
+		LEVEL 1 FOR 9.685;
+		LEVEL 0 FOR 109.048;
+		LEVEL 1 FOR 0.952;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 9.048;
+		LEVEL 0 FOR 141.849;
+		LEVEL 1 FOR 0.46;
+		LEVEL 0 FOR 38.958;
+		LEVEL 1 FOR 9.685;
+		LEVEL 0 FOR 109.048;
+		LEVEL 1 FOR 0.952;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 9.048;
+		LEVEL 0 FOR 90.0;
+		LEVEL 1 FOR 6.374;
+		LEVEL 0 FOR 36.356;
+		LEVEL 1 FOR 3.495;
+		LEVEL 0 FOR 96.453;
+	}
+}
+
+TRANSITION_LIST("g58_rules_test_vlg_vec_tst|i1|inst|play_card_mod13|SUB1|auto_generated|op_1~0_combout")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL X FOR 7.855;
+		LEVEL 1 FOR 48.919;
+		LEVEL 0 FOR 1.957;
+		LEVEL 1 FOR 48.043;
+		LEVEL 0 FOR 1.957;
+		LEVEL 1 FOR 48.043;
+		LEVEL 0 FOR 1.925;
+		LEVEL 1 FOR 50.071;
+		LEVEL 0 FOR 14.961;
+		LEVEL 1 FOR 8.043;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 1.957;
+		LEVEL 0 FOR 18.043;
+		LEVEL 1 FOR 1.957;
+		LEVEL 0 FOR 19.968;
+		LEVEL 1 FOR 23.075;
+		LEVEL 0 FOR 1.925;
+		LEVEL 1 FOR 5.032;
+		LEVEL 0 FOR 3.043;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 16.957;
+		LEVEL 1 FOR 4.968;
+		LEVEL 0 FOR 5.032;
+		LEVEL 1 FOR 8.043;
+		LEVEL 0 FOR 2.188;
+		LEVEL 1 FOR 27.812;
+		LEVEL 0 FOR 2.954;
+		LEVEL 1 FOR 9.003;
+		LEVEL 0 FOR 65.039;
+		LEVEL 1 FOR 0.958;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 48.971;
+		LEVEL 0 FOR 1.029;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 68.971;
+		LEVEL 1 FOR 60.263;
+		LEVEL 0 FOR 122.812;
+		LEVEL 1 FOR 2.421;
+		LEVEL 0 FOR 62.579;
+		LEVEL 1 FOR 3.214;
+		LEVEL 0 FOR 66.786;
+		LEVEL 1 FOR 1.957;
+		LEVEL 0 FOR 58.043;
+		LEVEL 1 FOR 11.957;
+		LEVEL 0 FOR 3.043;
+		LEVEL 1 FOR 11.957;
+		LEVEL 0 FOR 3.043;
+		LEVEL 1 FOR 2.954;
+		LEVEL 0 FOR 7.046;
+		LEVEL 1 FOR 1.925;
+		LEVEL 0 FOR 5.032;
+		LEVEL 1 FOR 18.043;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 1.925;
+		LEVEL 0 FOR 20.032;
+		LEVEL 1 FOR 3.043;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 21.925;
+		LEVEL 1 FOR 16.029;
+		LEVEL 0 FOR 2.046;
+		LEVEL 1 FOR 6.957;
+		LEVEL 0 FOR 1.257;
+		LEVEL 1 FOR 11.786;
+		LEVEL 0 FOR 16.957;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 6.269;
+	}
+}
+
+TRANSITION_LIST("g58_rules_test_vlg_vec_tst|i1|inst|play_card_mod13|SUB1|auto_generated|op_1~2_combout")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL X FOR 7.822;
+		LEVEL 1 FOR 49.761;
+		LEVEL 0 FOR 1.579;
+		LEVEL 1 FOR 98.421;
+		LEVEL 0 FOR 1.547;
+		LEVEL 1 FOR 48.412;
+		LEVEL 0 FOR 1.659;
+		LEVEL 1 FOR 14.961;
+		LEVEL 0 FOR 8.044;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 1.489;
+		LEVEL 1 FOR 0.467;
+		LEVEL 0 FOR 18.421;
+		LEVEL 1 FOR 1.112;
+		LEVEL 0 FOR 8.888;
+		LEVEL 1 FOR 4.959;
+		LEVEL 0 FOR 30.0;
+		LEVEL 1 FOR 1.588;
+		LEVEL 0 FOR 4.565;
+		LEVEL 1 FOR 0.467;
+		LEVEL 0 FOR 3.421;
+		LEVEL 1 FOR 14.959;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 1.153;
+		LEVEL 0 FOR 0.467;
+		LEVEL 1 FOR 4.968;
+		LEVEL 0 FOR 5.032;
+		LEVEL 1 FOR 8.044;
+		LEVEL 0 FOR 1.717;
+		LEVEL 1 FOR 8.66;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 4.959;
+		LEVEL 0 FOR 5.041;
+		LEVEL 1 FOR 2.106;
+		LEVEL 0 FOR 0.47;
+		LEVEL 1 FOR 9.003;
+		LEVEL 0 FOR 13.421;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 1.618;
+		LEVEL 1 FOR 0.958;
+		LEVEL 0 FOR 7.424;
+		LEVEL 1 FOR 2.576;
+		LEVEL 0 FOR 7.424;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 1.077;
+		LEVEL 0 FOR 0.47;
+		LEVEL 1 FOR 0.559;
+		LEVEL 0 FOR 0.47;
+		LEVEL 1 FOR 7.424;
+		LEVEL 0 FOR 2.106;
+		LEVEL 1 FOR 0.47;
+		LEVEL 0 FOR 7.424;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 11.112;
+		LEVEL 1 FOR 8.888;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 1.547;
+		LEVEL 0 FOR 8.453;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 1.34;
+		LEVEL 1 FOR 0.47;
+		LEVEL 0 FOR 8.19;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 11.112;
+		LEVEL 0 FOR 131.254;
+		LEVEL 1 FOR 0.47;
+		LEVEL 0 FOR 67.123;
+		LEVEL 1 FOR 1.153;
+		LEVEL 0 FOR 70.467;
+		LEVEL 1 FOR 3.421;
+		LEVEL 0 FOR 17.106;
+		LEVEL 1 FOR 0.47;
+		LEVEL 0 FOR 7.383;
+		LEVEL 1 FOR 1.118;
+		LEVEL 0 FOR 8.882;
+		LEVEL 1 FOR 10.041;
+		LEVEL 0 FOR 4.959;
+		LEVEL 1 FOR 10.041;
+		LEVEL 0 FOR 21.112;
+		LEVEL 1 FOR 8.888;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 24.959;
+		LEVEL 0 FOR 1.118;
+		LEVEL 1 FOR 0.47;
+		LEVEL 0 FOR 3.453;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 2.106;
+		LEVEL 1 FOR 0.47;
+		LEVEL 0 FOR 8.536;
+		LEVEL 1 FOR 3.847;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 15.041;
+		LEVEL 0 FOR 1.579;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 3.38;
+		LEVEL 1 FOR 2.458;
+	}
+}
+
+TRANSITION_LIST("g58_rules_test_vlg_vec_tst|i1|inst|Equal3~0_combout")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL X FOR 24.266;
+		LEVEL 0 FOR 19.952;
+		LEVEL 1 FOR 9.064;
+		LEVEL 0 FOR 4.128;
+		LEVEL 1 FOR 0.662;
+		LEVEL 0 FOR 1.579;
+		LEVEL 1 FOR 3.631;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 10.984;
+		LEVEL 0 FOR 1.692;
+		LEVEL 1 FOR 0.681;
+		LEVEL 0 FOR 2.579;
+		LEVEL 1 FOR 4.363;
+		LEVEL 0 FOR 3.829;
+		LEVEL 1 FOR 1.957;
+		LEVEL 0 FOR 50.252;
+		LEVEL 1 FOR 3.663;
+		LEVEL 0 FOR 23.056;
+		LEVEL 1 FOR 2.395;
+		LEVEL 0 FOR 5.292;
+		LEVEL 1 FOR 10.241;
+		LEVEL 0 FOR 20.101;
+		LEVEL 1 FOR 0.284;
+		LEVEL 0 FOR 17.759;
+		LEVEL 1 FOR 0.285;
+		LEVEL 0 FOR 15.886;
+		LEVEL 1 FOR 0.685;
+		LEVEL 0 FOR 3.806;
+		LEVEL 1 FOR 1.112;
+		LEVEL 0 FOR 44.397;
+		LEVEL 1 FOR 1.038;
+		LEVEL 0 FOR 8.453;
+		LEVEL 1 FOR 9.338;
+		LEVEL 0 FOR 17.241;
+		LEVEL 1 FOR 4.684;
+		LEVEL 0 FOR 5.316;
+		LEVEL 1 FOR 3.631;
+		LEVEL 0 FOR 2.284;
+		LEVEL 1 FOR 1.844;
+		LEVEL 0 FOR 2.188;
+		LEVEL 1 FOR 8.474;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 4.959;
+		LEVEL 0 FOR 7.617;
+		LEVEL 1 FOR 8.719;
+		LEVEL 0 FOR 5.458;
+		LEVEL 1 FOR 58.908;
+		LEVEL 0 FOR 1.915;
+		LEVEL 1 FOR 9.409;
+		LEVEL 0 FOR 0.591;
+		LEVEL 1 FOR 48.501;
+		LEVEL 0 FOR 0.47;
+		LEVEL 1 FOR 10.559;
+		LEVEL 0 FOR 0.47;
+		LEVEL 1 FOR 27.634;
+		LEVEL 0 FOR 2.031;
+		LEVEL 1 FOR 39.022;
+		LEVEL 0 FOR 0.978;
+		LEVEL 1 FOR 38.953;
+		LEVEL 0 FOR 0.601;
+		LEVEL 1 FOR 19.174;
+		LEVEL 0 FOR 0.841;
+		LEVEL 1 FOR 19.159;
+		LEVEL 0 FOR 1.272;
+		LEVEL 1 FOR 37.969;
+		LEVEL 0 FOR 2.031;
+		LEVEL 1 FOR 7.969;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 12.221;
+		LEVEL 1 FOR 1.907;
+		LEVEL 0 FOR 2.421;
+		LEVEL 1 FOR 3.451;
+		LEVEL 0 FOR 60.0;
+		LEVEL 1 FOR 2.277;
+		LEVEL 0 FOR 0.349;
+		LEVEL 1 FOR 7.374;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 9.128;
+		LEVEL 0 FOR 41.856;
+		LEVEL 1 FOR 0.601;
+		LEVEL 0 FOR 24.158;
+		LEVEL 1 FOR 0.697;
+		LEVEL 0 FOR 7.688;
+		LEVEL 1 FOR 0.662;
+		LEVEL 0 FOR 12.476;
+		LEVEL 1 FOR 1.862;
+		LEVEL 0 FOR 1.631;
+		LEVEL 1 FOR 0.681;
+		LEVEL 0 FOR 18.309;
+		LEVEL 1 FOR 11.187;
+		LEVEL 0 FOR 13.192;
+		LEVEL 1 FOR 0.662;
+		LEVEL 0 FOR 1.64;
+		LEVEL 1 FOR 3.57;
+		LEVEL 0 FOR 0.936;
+		LEVEL 1 FOR 9.064;
+		LEVEL 0 FOR 19.128;
+		LEVEL 1 FOR 2.65;
+		LEVEL 0 FOR 9.158;
+		LEVEL 1 FOR 1.028;
+		LEVEL 0 FOR 17.785;
+		LEVEL 1 FOR 1.118;
+		LEVEL 0 FOR 16.215;
+		LEVEL 1 FOR 0.284;
+		LEVEL 0 FOR 8.719;
+		LEVEL 1 FOR 1.257;
+		LEVEL 0 FOR 4.924;
+		LEVEL 1 FOR 2.734;
+		LEVEL 0 FOR 11.478;
+		LEVEL 1 FOR 3.821;
+		LEVEL 0 FOR 5.786;
+		LEVEL 1 FOR 0.284;
+		LEVEL 0 FOR 9.716;
+		LEVEL 1 FOR 0.284;
+		LEVEL 0 FOR 3.38;
+		LEVEL 1 FOR 1.969;
+	}
+}
+
+TRANSITION_LIST("g58_rules_test_vlg_vec_tst|i1|inst|legal_play~0_combout")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL X FOR 9.6;
+		LEVEL 1 FOR 48.919;
+		LEVEL 0 FOR 2.162;
+		LEVEL 1 FOR 47.838;
+		LEVEL 0 FOR 1.957;
+		LEVEL 1 FOR 47.545;
+		LEVEL 0 FOR 2.628;
+		LEVEL 1 FOR 47.372;
+		LEVEL 0 FOR 1.116;
+		LEVEL 1 FOR 49.727;
+		LEVEL 0 FOR 1.393;
+		LEVEL 1 FOR 47.655;
+		LEVEL 0 FOR 1.529;
+		LEVEL 1 FOR 48.471;
+		LEVEL 0 FOR 3.199;
+		LEVEL 1 FOR 46.801;
+		LEVEL 0 FOR 2.866;
+		LEVEL 1 FOR 37.203;
+		LEVEL 0 FOR 0.816;
+		LEVEL 1 FOR 20.401;
+		LEVEL 0 FOR 0.563;
+		LEVEL 1 FOR 0.46;
+		LEVEL 0 FOR 1.485;
+		LEVEL 1 FOR 8.816;
+		LEVEL 0 FOR 1.262;
+		LEVEL 1 FOR 6.197;
+		LEVEL 0 FOR 0.566;
+		LEVEL 1 FOR 39.434;
+		LEVEL 0 FOR 0.566;
+		LEVEL 1 FOR 1.067;
+		LEVEL 0 FOR 2.495;
+		LEVEL 1 FOR 8.534;
+		LEVEL 0 FOR 1.466;
+		LEVEL 1 FOR 25.872;
+		LEVEL 0 FOR 2.797;
+		LEVEL 1 FOR 37.203;
+		LEVEL 0 FOR 0.816;
+		LEVEL 1 FOR 1.264;
+		LEVEL 0 FOR 0.717;
+		LEVEL 1 FOR 37.134;
+		LEVEL 0 FOR 0.885;
+		LEVEL 1 FOR 0.934;
+		LEVEL 0 FOR 1.527;
+		LEVEL 1 FOR 18.248;
+		LEVEL 0 FOR 0.841;
+		LEVEL 1 FOR 17.634;
+		LEVEL 0 FOR 0.566;
+		LEVEL 1 FOR 0.959;
+		LEVEL 0 FOR 1.752;
+		LEVEL 1 FOR 36.723;
+		LEVEL 0 FOR 3.285;
+		LEVEL 1 FOR 7.481;
+		LEVEL 0 FOR 51.014;
+		LEVEL 1 FOR 0.46;
+		LEVEL 0 FOR 38.958;
+		LEVEL 1 FOR 9.685;
+		LEVEL 0 FOR 19.883;
+		LEVEL 1 FOR 2.277;
+		LEVEL 0 FOR 0.349;
+		LEVEL 1 FOR 7.171;
+		LEVEL 0 FOR 10.203;
+		LEVEL 1 FOR 0.832;
+		LEVEL 0 FOR 68.333;
+		LEVEL 1 FOR 0.952;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 9.048;
+		LEVEL 0 FOR 34.963;
+		LEVEL 1 FOR 0.922;
+		LEVEL 0 FOR 12.216;
+		LEVEL 1 FOR 1.862;
+		LEVEL 0 FOR 21.375;
+		LEVEL 1 FOR 9.055;
+		LEVEL 0 FOR 1.008;
+		LEVEL 1 FOR 0.37;
+		LEVEL 0 FOR 8.229;
+		LEVEL 1 FOR 6.374;
+		LEVEL 0 FOR 1.371;
+		LEVEL 1 FOR 2.608;
+		LEVEL 0 FOR 29.61;
+		LEVEL 1 FOR 0.672;
+		LEVEL 0 FOR 0.766;
+		LEVEL 1 FOR 9.206;
+		LEVEL 0 FOR 67.536;
+		LEVEL 1 FOR 1.926;
+		LEVEL 0 FOR 22.019;
+	}
+}
+
+TRANSITION_LIST("g58_rules_test_vlg_vec_tst|i1|inst|play_card_mod13|ADD1|auto_generated|op_1~3_combout")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL X FOR 6.75;
+		LEVEL 0 FOR 50.876;
+		LEVEL 1 FOR 50.0;
+		LEVEL 0 FOR 49.968;
+		LEVEL 1 FOR 50.071;
+		LEVEL 0 FOR 14.961;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 19.968;
+		LEVEL 0 FOR 25.0;
+		LEVEL 1 FOR 5.032;
+		LEVEL 0 FOR 30.0;
+		LEVEL 1 FOR 4.968;
+		LEVEL 0 FOR 5.032;
+		LEVEL 1 FOR 10.231;
+		LEVEL 0 FOR 30.766;
+		LEVEL 1 FOR 9.003;
+		LEVEL 0 FOR 65.039;
+		LEVEL 1 FOR 0.958;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 48.971;
+		LEVEL 0 FOR 1.029;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 68.971;
+		LEVEL 1 FOR 60.263;
+		LEVEL 0 FOR 125.233;
+		LEVEL 1 FOR 65.793;
+		LEVEL 0 FOR 68.743;
+		LEVEL 1 FOR 70.0;
+		LEVEL 0 FOR 15.0;
+		LEVEL 1 FOR 5.997;
+		LEVEL 0 FOR 8.971;
+		LEVEL 1 FOR 5.032;
+		LEVEL 0 FOR 29.968;
+		LEVEL 1 FOR 20.032;
+		LEVEL 0 FOR 44.968;
+		LEVEL 1 FOR 16.029;
+		LEVEL 0 FOR 9.003;
+		LEVEL 1 FOR 1.257;
+		LEVEL 0 FOR 28.743;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 7.374;
+	}
+}
+
+TRANSITION_LIST("g58_rules_test_vlg_vec_tst|i1|inst|Equal2~0_combout")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL X FOR 23.091;
+		LEVEL 0 FOR 15.666;
+		LEVEL 1 FOR 4.617;
+		LEVEL 0 FOR 14.184;
+		LEVEL 1 FOR 0.933;
+		LEVEL 0 FOR 34.6;
+		LEVEL 1 FOR 1.692;
+		LEVEL 0 FOR 18.591;
+		LEVEL 1 FOR 9.717;
+		LEVEL 0 FOR 0.601;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 34.682;
+		LEVEL 1 FOR 10.842;
+		LEVEL 0 FOR 8.342;
+		LEVEL 1 FOR 1.358;
+		LEVEL 0 FOR 19.614;
+		LEVEL 1 FOR 14.961;
+		LEVEL 0 FOR 20.204;
+		LEVEL 1 FOR 14.396;
+		LEVEL 0 FOR 19.451;
+		LEVEL 1 FOR 5.917;
+		LEVEL 0 FOR 24.632;
+		LEVEL 1 FOR 0.368;
+		LEVEL 0 FOR 24.083;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 5.917;
+		LEVEL 1 FOR 5.032;
+		LEVEL 0 FOR 5.454;
+		LEVEL 1 FOR 4.777;
+		LEVEL 0 FOR 44.482;
+		LEVEL 1 FOR 59.354;
+		LEVEL 0 FOR 0.972;
+		LEVEL 1 FOR 0.352;
+		LEVEL 0 FOR 0.606;
+		LEVEL 1 FOR 9.394;
+		LEVEL 0 FOR 0.606;
+		LEVEL 1 FOR 48.971;
+		LEVEL 0 FOR 0.925;
+		LEVEL 1 FOR 10.104;
+		LEVEL 0 FOR 0.908;
+		LEVEL 1 FOR 27.146;
+		LEVEL 0 FOR 1.15;
+		LEVEL 1 FOR 39.767;
+		LEVEL 0 FOR 0.233;
+		LEVEL 1 FOR 39.399;
+		LEVEL 0 FOR 1.613;
+		LEVEL 1 FOR 18.162;
+		LEVEL 0 FOR 1.057;
+		LEVEL 1 FOR 18.943;
+		LEVEL 0 FOR 0.826;
+		LEVEL 1 FOR 38.85;
+		LEVEL 0 FOR 1.15;
+		LEVEL 1 FOR 58.866;
+		LEVEL 0 FOR 1.324;
+		LEVEL 1 FOR 5.073;
+		LEVEL 0 FOR 4.927;
+		LEVEL 1 FOR 49.81;
+		LEVEL 0 FOR 0.692;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 1.012;
+		LEVEL 1 FOR 27.695;
+		LEVEL 0 FOR 0.601;
+		LEVEL 1 FOR 38.85;
+		LEVEL 0 FOR 1.15;
+		LEVEL 1 FOR 39.399;
+		LEVEL 0 FOR 1.613;
+		LEVEL 1 FOR 17.838;
+		LEVEL 0 FOR 10.949;
+		LEVEL 1 FOR 15.0;
+		LEVEL 0 FOR 0.201;
+		LEVEL 1 FOR 1.012;
+		LEVEL 0 FOR 12.838;
+		LEVEL 1 FOR 0.917;
+		LEVEL 0 FOR 49.632;
+		LEVEL 1 FOR 5.4;
+		LEVEL 0 FOR 26.592;
+		LEVEL 1 FOR 2.783;
+		LEVEL 0 FOR 10.225;
+		LEVEL 1 FOR 4.451;
+		LEVEL 0 FOR 10.549;
+		LEVEL 1 FOR 6.397;
+		LEVEL 0 FOR 9.207;
+		LEVEL 1 FOR 1.053;
+		LEVEL 0 FOR 4.956;
+		LEVEL 1 FOR 4.68;
+		LEVEL 0 FOR 8.174;
+		LEVEL 1 FOR 1.358;
+		LEVEL 0 FOR 14.841;
+		LEVEL 1 FOR 4.734;
+		LEVEL 0 FOR 6.509;
+	}
+}
+
+TRANSITION_LIST("g58_rules_test_vlg_vec_tst|i1|inst|play_card_mod13|ADD1|auto_generated|op_1~5_combout")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL X FOR 5.637;
+		LEVEL 0 FOR 236.958;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 50.0;
+		LEVEL 1 FOR 18.876;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 1.124;
+		LEVEL 0 FOR 20.262;
+		LEVEL 1 FOR 23.614;
+		LEVEL 0 FOR 180.0;
+		LEVEL 1 FOR 1.124;
+		LEVEL 0 FOR 100.262;
+		LEVEL 1 FOR 58.614;
+		LEVEL 0 FOR 200.0;
+		LEVEL 1 FOR 1.124;
+		LEVEL 0 FOR 98.876;
+		LEVEL 1 FOR 1.123;
+		LEVEL 0 FOR 55.001;
+		LEVEL 1 FOR 43.876;
+		LEVEL 0 FOR 73.529;
+	}
+}
+
+TRANSITION_LIST("g58_rules_test_vlg_vec_tst|i1|inst|legal_play~combout")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL X FOR 10.674;
+		LEVEL 1 FOR 48.919;
+		LEVEL 0 FOR 2.162;
+		LEVEL 1 FOR 47.838;
+		LEVEL 0 FOR 1.957;
+		LEVEL 1 FOR 47.545;
+		LEVEL 0 FOR 2.628;
+		LEVEL 1 FOR 98.215;
+		LEVEL 0 FOR 1.393;
+		LEVEL 1 FOR 47.655;
+		LEVEL 0 FOR 1.529;
+		LEVEL 1 FOR 48.471;
+		LEVEL 0 FOR 0.751;
+		LEVEL 1 FOR 209.318;
+		LEVEL 0 FOR 0.429;
+		LEVEL 1 FOR 79.502;
+		LEVEL 0 FOR 0.885;
+		LEVEL 1 FOR 39.184;
+		LEVEL 0 FOR 0.566;
+		LEVEL 1 FOR 39.434;
+		LEVEL 0 FOR 0.429;
+		LEVEL 1 FOR 58.866;
+		LEVEL 0 FOR 1.324;
+		LEVEL 1 FOR 5.073;
+		LEVEL 0 FOR 4.927;
+		LEVEL 1 FOR 49.81;
+		LEVEL 0 FOR 0.692;
+		LEVEL 1 FOR 38.707;
+		LEVEL 0 FOR 0.601;
+		LEVEL 1 FOR 37.451;
+		LEVEL 0 FOR 2.549;
+		LEVEL 1 FOR 39.502;
+		LEVEL 0 FOR 1.51;
+		LEVEL 1 FOR 17.838;
+		LEVEL 0 FOR 15.615;
+		LEVEL 1 FOR 0.922;
+		LEVEL 0 FOR 9.277;
+		LEVEL 1 FOR 1.348;
+		LEVEL 0 FOR 1.591;
+		LEVEL 1 FOR 1.862;
+		LEVEL 0 FOR 21.375;
+		LEVEL 1 FOR 9.055;
+		LEVEL 0 FOR 9.607;
+		LEVEL 1 FOR 6.374;
+		LEVEL 0 FOR 1.371;
+		LEVEL 1 FOR 2.608;
+		LEVEL 0 FOR 9.544;
+		LEVEL 1 FOR 4.176;
+		LEVEL 0 FOR 15.89;
+		LEVEL 1 FOR 0.672;
+		LEVEL 0 FOR 0.766;
+		LEVEL 1 FOR 9.206;
+		LEVEL 0 FOR 1.282;
+		LEVEL 1 FOR 2.447;
+		LEVEL 0 FOR 13.613;
+		LEVEL 1 FOR 1.399;
+		LEVEL 0 FOR 10.549;
+		LEVEL 1 FOR 6.397;
+		LEVEL 0 FOR 9.207;
+		LEVEL 1 FOR 1.053;
+		LEVEL 0 FOR 4.956;
+		LEVEL 1 FOR 4.68;
+		LEVEL 0 FOR 8.174;
+		LEVEL 1 FOR 1.358;
+		LEVEL 0 FOR 2.421;
+		LEVEL 1 FOR 1.926;
+		LEVEL 0 FOR 10.494;
+		LEVEL 1 FOR 4.734;
+		LEVEL 0 FOR 5.717;
+	}
+}
+
+TRANSITION_LIST("g58_rules_test_vlg_vec_tst|i1|card_to_play~combout[5]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 100.834;
+		LEVEL 1 FOR 100.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 25.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 15.0;
+		LEVEL 1 FOR 25.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 15.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 15.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 160.0;
+		LEVEL 1 FOR 160.0;
+		LEVEL 0 FOR 200.0;
+		LEVEL 1 FOR 60.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 25.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 15.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 15.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 9.166;
+	}
+}
+
+TRANSITION_LIST("g58_rules_test_vlg_vec_tst|i1|card_to_play~combout[4]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 50.873;
+		LEVEL 1 FOR 50.0;
+		LEVEL 0 FOR 105.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 35.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 35.0;
+		LEVEL 0 FOR 85.0;
+		LEVEL 1 FOR 80.0;
+		LEVEL 0 FOR 80.0;
+		LEVEL 1 FOR 80.0;
+		LEVEL 0 FOR 130.0;
+		LEVEL 1 FOR 70.0;
+		LEVEL 0 FOR 60.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 15.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 15.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 14.127;
+	}
+}
+
+TRANSITION_LIST("g58_rules_test_vlg_vec_tst|i1|card_to_play~combout[3]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 150.844;
+		LEVEL 1 FOR 50.0;
+		LEVEL 0 FOR 25.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 25.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 25.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 50.0;
+		LEVEL 1 FOR 40.0;
+		LEVEL 0 FOR 40.0;
+		LEVEL 1 FOR 40.0;
+		LEVEL 0 FOR 40.0;
+		LEVEL 1 FOR 40.0;
+		LEVEL 0 FOR 40.0;
+		LEVEL 1 FOR 40.0;
+		LEVEL 0 FOR 65.0;
+		LEVEL 1 FOR 135.0;
+		LEVEL 0 FOR 60.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 15.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 15.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 15.0;
+		LEVEL 1 FOR 15.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 15.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 4.156;
+	}
+}
+
+TRANSITION_LIST("g58_rules_test_vlg_vec_tst|i1|card_to_play~combout[2]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 1 FOR 100.834;
+		LEVEL 0 FOR 50.0;
+		LEVEL 1 FOR 50.0;
+		LEVEL 0 FOR 15.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 15.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 25.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 15.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 25.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 65.0;
+		LEVEL 1 FOR 65.0;
+		LEVEL 0 FOR 70.0;
+		LEVEL 1 FOR 60.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 30.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 30.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 9.166;
+	}
+}
+
+TRANSITION_LIST("g58_rules_test_vlg_vec_tst|i1|card_to_play~combout[1]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 1 FOR 50.853;
+		LEVEL 0 FOR 100.0;
+		LEVEL 1 FOR 60.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 15.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 25.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 15.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 25.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 130.0;
+		LEVEL 1 FOR 135.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 15.0;
+		LEVEL 1 FOR 30.0;
+		LEVEL 0 FOR 15.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 15.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 15.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 15.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 4.147;
+	}
+}
+
+TRANSITION_LIST("g58_rules_test_vlg_vec_tst|i1|card_to_play~combout[0]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 1 FOR 50.864;
+		LEVEL 0 FOR 50.0;
+		LEVEL 1 FOR 50.0;
+		LEVEL 0 FOR 60.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 25.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 15.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 15.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 15.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 65.0;
+		LEVEL 1 FOR 65.0;
+		LEVEL 0 FOR 70.0;
+		LEVEL 1 FOR 60.0;
+		LEVEL 0 FOR 15.0;
+		LEVEL 1 FOR 15.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 15.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 25.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 15.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 15.0;
+		LEVEL 1 FOR 4.136;
+	}
+}
+
+TRANSITION_LIST("g58_rules_test_vlg_vec_tst|i1|play_pile_top_card~combout[5]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 5.854;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 15.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 15.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 130.0;
+		LEVEL 1 FOR 100.0;
+		LEVEL 0 FOR 160.0;
+		LEVEL 1 FOR 160.0;
+		LEVEL 0 FOR 160.0;
+		LEVEL 1 FOR 100.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 15.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 15.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 15.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 15.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 15.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 4.146;
+	}
+}
+
+TRANSITION_LIST("g58_rules_test_vlg_vec_tst|i1|play_pile_top_card~combout[4]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 1 FOR 5.853;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 15.0;
+		LEVEL 1 FOR 15.0;
+		LEVEL 0 FOR 15.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 30.0;
+		LEVEL 0 FOR 15.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 55.0;
+		LEVEL 1 FOR 50.0;
+		LEVEL 0 FOR 180.0;
+		LEVEL 1 FOR 80.0;
+		LEVEL 0 FOR 80.0;
+		LEVEL 1 FOR 80.0;
+		LEVEL 0 FOR 80.0;
+		LEVEL 1 FOR 80.0;
+		LEVEL 0 FOR 80.0;
+		LEVEL 1 FOR 30.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 15.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 15.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 15.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 15.0;
+		LEVEL 1 FOR 4.147;
+	}
+}
+
+TRANSITION_LIST("g58_rules_test_vlg_vec_tst|i1|play_pile_top_card~combout[3]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 1 FOR 25.843;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 15.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 15.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 15.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 165.0;
+		LEVEL 1 FOR 50.0;
+		LEVEL 0 FOR 40.0;
+		LEVEL 1 FOR 40.0;
+		LEVEL 0 FOR 40.0;
+		LEVEL 1 FOR 40.0;
+		LEVEL 0 FOR 40.0;
+		LEVEL 1 FOR 40.0;
+		LEVEL 0 FOR 40.0;
+		LEVEL 1 FOR 40.0;
+		LEVEL 0 FOR 40.0;
+		LEVEL 1 FOR 40.0;
+		LEVEL 0 FOR 40.0;
+		LEVEL 1 FOR 40.0;
+		LEVEL 0 FOR 40.0;
+		LEVEL 1 FOR 40.0;
+		LEVEL 0 FOR 25.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 25.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 15.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 4.157;
+	}
+}
+
+TRANSITION_LIST("g58_rules_test_vlg_vec_tst|i1|play_pile_top_card~combout[2]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 1 FOR 10.864;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 35.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 30.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 15.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 100.0;
+		LEVEL 0 FOR 50.0;
+		LEVEL 1 FOR 50.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 25.0;
+		LEVEL 1 FOR 15.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 15.0;
+		LEVEL 0 FOR 25.0;
+		LEVEL 1 FOR 15.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 4.136;
+	}
+}
+
+TRANSITION_LIST("g58_rules_test_vlg_vec_tst|i1|play_pile_top_card~combout[1]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 1 FOR 5.864;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 15.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 25.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 15.0;
+		LEVEL 1 FOR 15.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 15.0;
+		LEVEL 1 FOR 50.0;
+		LEVEL 0 FOR 100.0;
+		LEVEL 1 FOR 50.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 30.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 15.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 15.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 4.136;
+	}
+}
+
+TRANSITION_LIST("g58_rules_test_vlg_vec_tst|i1|play_pile_top_card~combout[0]")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 5.843;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 15.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 20.0;
+		LEVEL 1 FOR 20.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 15.0;
+		LEVEL 1 FOR 50.0;
+		LEVEL 0 FOR 50.0;
+		LEVEL 1 FOR 50.0;
+		LEVEL 0 FOR 55.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 25.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 10.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 15.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 30.0;
+		LEVEL 1 FOR 10.0;
+		LEVEL 0 FOR 5.0;
+		LEVEL 1 FOR 5.0;
+		LEVEL 0 FOR 15.0;
+		LEVEL 1 FOR 29.157;
+	}
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "g58_rules_test_vlg_vec_tst|card_to_play";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 0;
+	TREE_LEVEL = 0;
+	CHILDREN = 1, 2, 3, 4, 5, 6;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "g58_rules_test_vlg_vec_tst|card_to_play[5]";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 1;
+	TREE_LEVEL = 1;
+	PARENT = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "g58_rules_test_vlg_vec_tst|card_to_play[4]";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 2;
+	TREE_LEVEL = 1;
+	PARENT = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "g58_rules_test_vlg_vec_tst|card_to_play[3]";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 3;
+	TREE_LEVEL = 1;
+	PARENT = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "g58_rules_test_vlg_vec_tst|card_to_play[2]";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 4;
+	TREE_LEVEL = 1;
+	PARENT = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "g58_rules_test_vlg_vec_tst|card_to_play[1]";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 5;
+	TREE_LEVEL = 1;
+	PARENT = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "g58_rules_test_vlg_vec_tst|card_to_play[0]";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 6;
+	TREE_LEVEL = 1;
+	PARENT = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "g58_rules_test_vlg_vec_tst|play_pile_top_card";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 7;
+	TREE_LEVEL = 0;
+	CHILDREN = 8, 9, 10, 11, 12, 13;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "g58_rules_test_vlg_vec_tst|play_pile_top_card[5]";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 8;
+	TREE_LEVEL = 1;
+	PARENT = 7;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "g58_rules_test_vlg_vec_tst|play_pile_top_card[4]";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 9;
+	TREE_LEVEL = 1;
+	PARENT = 7;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "g58_rules_test_vlg_vec_tst|play_pile_top_card[3]";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 10;
+	TREE_LEVEL = 1;
+	PARENT = 7;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "g58_rules_test_vlg_vec_tst|play_pile_top_card[2]";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 11;
+	TREE_LEVEL = 1;
+	PARENT = 7;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "g58_rules_test_vlg_vec_tst|play_pile_top_card[1]";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 12;
+	TREE_LEVEL = 1;
+	PARENT = 7;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "g58_rules_test_vlg_vec_tst|play_pile_top_card[0]";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 13;
+	TREE_LEVEL = 1;
+	PARENT = 7;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "g58_rules_test_vlg_vec_tst|legal_play";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 14;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "g58_rules_test_vlg_vec_tst|sampler";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 15;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "g58_rules_test_vlg_vec_tst|i1|gnd";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 16;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "g58_rules_test_vlg_vec_tst|i1|vcc";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 17;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "g58_rules_test_vlg_vec_tst|i1|unknown";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 18;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "g58_rules_test_vlg_vec_tst|i1|devclrn";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 19;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "g58_rules_test_vlg_vec_tst|i1|devpor";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 20;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "g58_rules_test_vlg_vec_tst|i1|devoe";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 21;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "g58_rules_test_vlg_vec_tst|i1|inst|top_card_mod13|SUB1|auto_generated|op_1~2_combout";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 22;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "g58_rules_test_vlg_vec_tst|i1|inst|top_card_mod13|ADD1|auto_generated|op_1~4_combout";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 23;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "g58_rules_test_vlg_vec_tst|i1|inst|top_card_mod13|ADD1|auto_generated|op_1~5_combout";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 24;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "g58_rules_test_vlg_vec_tst|i1|inst|Equal1~0_combout";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 25;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "g58_rules_test_vlg_vec_tst|i1|inst|top_card_mod13|ADD1|auto_generated|op_1~1_combout";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 26;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "g58_rules_test_vlg_vec_tst|i1|inst|top_card_mod13|ADD1|auto_generated|op_1~2_combout";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 27;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "g58_rules_test_vlg_vec_tst|i1|inst|top_card_mod13|ADD1|auto_generated|op_1~6_combout";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 28;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "g58_rules_test_vlg_vec_tst|i1|inst|top_card_mod13|ADD3|auto_generated|op_1~1_combout";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 29;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "g58_rules_test_vlg_vec_tst|i1|inst|top_card_mod13|ADD3|auto_generated|op_1~0_combout";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 30;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "g58_rules_test_vlg_vec_tst|i1|inst|top_card_mod13|ADD1|auto_generated|op_1~0_combout";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 31;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "g58_rules_test_vlg_vec_tst|i1|inst|top_card_mod13|ADD1|auto_generated|op_1~3_combout";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 32;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "g58_rules_test_vlg_vec_tst|i1|inst|top_card_mod13|SUB1|auto_generated|op_1~1";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 33;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "g58_rules_test_vlg_vec_tst|i1|inst|top_card_mod13|SUB1|auto_generated|op_1~3";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 34;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "g58_rules_test_vlg_vec_tst|i1|inst|top_card_mod13|SUB1|auto_generated|op_1~5";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 35;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "g58_rules_test_vlg_vec_tst|i1|inst|top_card_mod13|SUB1|auto_generated|op_1~6_combout";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 36;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "g58_rules_test_vlg_vec_tst|i1|inst|play_card_mod13|ADD1|auto_generated|op_1~1_combout";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 37;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "g58_rules_test_vlg_vec_tst|i1|inst|play_card_mod13|ADD1|auto_generated|op_1~0_combout";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 38;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "g58_rules_test_vlg_vec_tst|i1|inst|play_card_mod13|ADD1|auto_generated|op_1~2_combout";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 39;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "g58_rules_test_vlg_vec_tst|i1|inst|play_card_mod13|ADD3|auto_generated|op_1~0_combout";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 40;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "g58_rules_test_vlg_vec_tst|i1|inst|play_card_mod13|ADD1|auto_generated|op_1~4_combout";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 41;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "g58_rules_test_vlg_vec_tst|i1|inst|play_card_mod13|SUB1|auto_generated|op_1~1";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 42;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "g58_rules_test_vlg_vec_tst|i1|inst|play_card_mod13|SUB1|auto_generated|op_1~3";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 43;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "g58_rules_test_vlg_vec_tst|i1|inst|play_card_mod13|SUB1|auto_generated|op_1~4_combout";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 44;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "g58_rules_test_vlg_vec_tst|i1|inst|play_card_mod13|ADD3|auto_generated|op_1~1_combout";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 45;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "g58_rules_test_vlg_vec_tst|i1|inst|play_card_mod13|SUB1|auto_generated|op_1~5";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 46;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "g58_rules_test_vlg_vec_tst|i1|inst|play_card_mod13|SUB1|auto_generated|op_1~6_combout";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 47;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "g58_rules_test_vlg_vec_tst|i1|inst|Equal3~1_combout";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 48;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "g58_rules_test_vlg_vec_tst|i1|inst|top_card_mod13|SUB1|auto_generated|op_1~0_combout";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 49;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "g58_rules_test_vlg_vec_tst|i1|inst|top_card_mod13|SUB1|auto_generated|op_1~4_combout";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 50;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "g58_rules_test_vlg_vec_tst|i1|inst|Equal0~0_combout";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 51;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "g58_rules_test_vlg_vec_tst|i1|inst|play_card_mod13|SUB1|auto_generated|op_1~0_combout";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 52;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "g58_rules_test_vlg_vec_tst|i1|inst|play_card_mod13|SUB1|auto_generated|op_1~2_combout";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 53;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "g58_rules_test_vlg_vec_tst|i1|inst|Equal3~0_combout";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 54;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "g58_rules_test_vlg_vec_tst|i1|inst|legal_play~0_combout";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 55;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "g58_rules_test_vlg_vec_tst|i1|inst|play_card_mod13|ADD1|auto_generated|op_1~3_combout";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 56;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "g58_rules_test_vlg_vec_tst|i1|inst|Equal2~0_combout";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 57;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "g58_rules_test_vlg_vec_tst|i1|inst|play_card_mod13|ADD1|auto_generated|op_1~5_combout";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 58;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "g58_rules_test_vlg_vec_tst|i1|inst|legal_play~combout";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 59;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "g58_rules_test_vlg_vec_tst|i1|card_to_play~combout[5]";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 60;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "g58_rules_test_vlg_vec_tst|i1|card_to_play~combout[4]";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 61;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "g58_rules_test_vlg_vec_tst|i1|card_to_play~combout[3]";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 62;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "g58_rules_test_vlg_vec_tst|i1|card_to_play~combout[2]";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 63;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "g58_rules_test_vlg_vec_tst|i1|card_to_play~combout[1]";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 64;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "g58_rules_test_vlg_vec_tst|i1|card_to_play~combout[0]";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 65;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "g58_rules_test_vlg_vec_tst|i1|play_pile_top_card~combout[5]";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 66;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "g58_rules_test_vlg_vec_tst|i1|play_pile_top_card~combout[4]";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 67;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "g58_rules_test_vlg_vec_tst|i1|play_pile_top_card~combout[3]";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 68;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "g58_rules_test_vlg_vec_tst|i1|play_pile_top_card~combout[2]";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 69;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "g58_rules_test_vlg_vec_tst|i1|play_pile_top_card~combout[1]";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 70;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "g58_rules_test_vlg_vec_tst|i1|play_pile_top_card~combout[0]";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 71;
+	TREE_LEVEL = 0;
+}
+;

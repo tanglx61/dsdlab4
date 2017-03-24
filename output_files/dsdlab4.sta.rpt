@@ -1,0 +1,366 @@
+TimeQuest Timing Analyzer report for dsdlab4
+Thu Mar 23 14:56:46 2017
+Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. TimeQuest Timing Analyzer Summary
+  3. Parallel Compilation
+  4. Clocks
+  5. Slow Model Fmax Summary
+  6. Slow Model Setup Summary
+  7. Slow Model Hold Summary
+  8. Slow Model Recovery Summary
+  9. Slow Model Removal Summary
+ 10. Slow Model Minimum Pulse Width Summary
+ 11. Propagation Delay
+ 12. Minimum Propagation Delay
+ 13. Fast Model Setup Summary
+ 14. Fast Model Hold Summary
+ 15. Fast Model Recovery Summary
+ 16. Fast Model Removal Summary
+ 17. Fast Model Minimum Pulse Width Summary
+ 18. Propagation Delay
+ 19. Minimum Propagation Delay
+ 20. Multicorner Timing Analysis Summary
+ 21. Progagation Delay
+ 22. Minimum Progagation Delay
+ 23. Clock Transfers
+ 24. Report TCCS
+ 25. Report RSKM
+ 26. Unconstrained Paths
+ 27. TimeQuest Timing Analyzer Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++----------------------------------------------------------------------------------------+
+; TimeQuest Timing Analyzer Summary                                                      ;
++--------------------+-------------------------------------------------------------------+
+; Quartus II Version ; Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition ;
+; Revision Name      ; dsdlab4                                                           ;
+; Device Family      ; Cyclone II                                                        ;
+; Device Name        ; EP2C20F484C7                                                      ;
+; Timing Models      ; Final                                                             ;
+; Delay Model        ; Combined                                                          ;
+; Rise/Fall Delays   ; Unavailable                                                       ;
++--------------------+-------------------------------------------------------------------+
+
+
++------------------------------------------+
+; Parallel Compilation                     ;
++----------------------------+-------------+
+; Processors                 ; Number      ;
++----------------------------+-------------+
+; Number detected on machine ; 6           ;
+; Maximum allowed            ; 6           ;
+;                            ;             ;
+; Average used               ; 1.00        ;
+; Maximum used               ; 1           ;
+;                            ;             ;
+; Usage by Processor         ; % Time Used ;
+;     Processor 1            ; 100.0%      ;
+;     Processors 2-6         ;   0.0%      ;
++----------------------------+-------------+
+
+
+----------
+; Clocks ;
+----------
+No clocks to report.
+
+
+---------------------------
+; Slow Model Fmax Summary ;
+---------------------------
+No paths to report.
+
+
+----------------------------
+; Slow Model Setup Summary ;
+----------------------------
+No paths to report.
+
+
+---------------------------
+; Slow Model Hold Summary ;
+---------------------------
+No paths to report.
+
+
+-------------------------------
+; Slow Model Recovery Summary ;
+-------------------------------
+No paths to report.
+
+
+------------------------------
+; Slow Model Removal Summary ;
+------------------------------
+No paths to report.
+
+
+------------------------------------------
+; Slow Model Minimum Pulse Width Summary ;
+------------------------------------------
+No paths to report.
+
+
++-------------------------------------------------------------------------+
+; Propagation Delay                                                       ;
++-----------------------+-------------+--------+--------+--------+--------+
+; Input Port            ; Output Port ; RR     ; RF     ; FR     ; FF     ;
++-----------------------+-------------+--------+--------+--------+--------+
+; card_to_play[0]       ; legal_play  ; 17.378 ; 17.378 ; 17.378 ; 17.378 ;
+; card_to_play[1]       ; legal_play  ; 17.942 ; 17.942 ; 17.942 ; 17.942 ;
+; card_to_play[2]       ; legal_play  ; 16.976 ; 16.976 ; 16.976 ; 16.976 ;
+; card_to_play[3]       ; legal_play  ; 16.713 ; 16.713 ; 16.713 ; 16.713 ;
+; card_to_play[4]       ; legal_play  ; 18.173 ; 18.173 ; 18.173 ; 18.173 ;
+; card_to_play[5]       ; legal_play  ; 16.630 ; 16.630 ; 16.630 ; 16.630 ;
+; play_pile_top_card[0] ; legal_play  ; 19.106 ; 19.106 ; 19.106 ; 19.106 ;
+; play_pile_top_card[1] ; legal_play  ; 18.453 ; 18.453 ; 18.453 ; 18.453 ;
+; play_pile_top_card[2] ; legal_play  ; 16.938 ; 16.938 ; 16.938 ; 16.938 ;
+; play_pile_top_card[3] ; legal_play  ; 18.516 ; 18.516 ; 18.516 ; 18.516 ;
+; play_pile_top_card[4] ; legal_play  ; 18.817 ; 18.817 ; 18.817 ; 18.817 ;
+; play_pile_top_card[5] ; legal_play  ; 18.105 ; 18.105 ; 18.105 ; 18.105 ;
++-----------------------+-------------+--------+--------+--------+--------+
+
+
++-------------------------------------------------------------------------+
+; Minimum Propagation Delay                                               ;
++-----------------------+-------------+--------+--------+--------+--------+
+; Input Port            ; Output Port ; RR     ; RF     ; FR     ; FF     ;
++-----------------------+-------------+--------+--------+--------+--------+
+; card_to_play[0]       ; legal_play  ; 13.355 ; 13.355 ; 13.355 ; 13.355 ;
+; card_to_play[1]       ; legal_play  ; 13.888 ; 13.888 ; 13.888 ; 13.888 ;
+; card_to_play[2]       ; legal_play  ; 12.930 ; 12.930 ; 12.930 ; 12.930 ;
+; card_to_play[3]       ; legal_play  ; 12.859 ; 12.859 ; 12.859 ; 12.859 ;
+; card_to_play[4]       ; legal_play  ; 12.860 ; 12.860 ; 12.860 ; 12.860 ;
+; card_to_play[5]       ; legal_play  ; 11.736 ; 11.736 ; 11.736 ; 11.736 ;
+; play_pile_top_card[0] ; legal_play  ; 14.921 ; 14.921 ; 14.921 ; 14.921 ;
+; play_pile_top_card[1] ; legal_play  ; 14.475 ; 14.475 ; 14.475 ; 14.475 ;
+; play_pile_top_card[2] ; legal_play  ; 13.123 ; 13.123 ; 13.123 ; 13.123 ;
+; play_pile_top_card[3] ; legal_play  ; 13.949 ; 13.949 ; 13.949 ; 13.949 ;
+; play_pile_top_card[4] ; legal_play  ; 13.028 ; 13.028 ; 13.028 ; 13.028 ;
+; play_pile_top_card[5] ; legal_play  ; 12.648 ; 12.648 ; 12.648 ; 12.648 ;
++-----------------------+-------------+--------+--------+--------+--------+
+
+
+----------------------------
+; Fast Model Setup Summary ;
+----------------------------
+No paths to report.
+
+
+---------------------------
+; Fast Model Hold Summary ;
+---------------------------
+No paths to report.
+
+
+-------------------------------
+; Fast Model Recovery Summary ;
+-------------------------------
+No paths to report.
+
+
+------------------------------
+; Fast Model Removal Summary ;
+------------------------------
+No paths to report.
+
+
+------------------------------------------
+; Fast Model Minimum Pulse Width Summary ;
+------------------------------------------
+No paths to report.
+
+
++---------------------------------------------------------------------+
+; Propagation Delay                                                   ;
++-----------------------+-------------+-------+-------+-------+-------+
+; Input Port            ; Output Port ; RR    ; RF    ; FR    ; FF    ;
++-----------------------+-------------+-------+-------+-------+-------+
+; card_to_play[0]       ; legal_play  ; 7.850 ; 7.850 ; 7.850 ; 7.850 ;
+; card_to_play[1]       ; legal_play  ; 8.107 ; 8.107 ; 8.107 ; 8.107 ;
+; card_to_play[2]       ; legal_play  ; 7.681 ; 7.681 ; 7.681 ; 7.681 ;
+; card_to_play[3]       ; legal_play  ; 7.666 ; 7.666 ; 7.666 ; 7.666 ;
+; card_to_play[4]       ; legal_play  ; 8.238 ; 8.238 ; 8.238 ; 8.238 ;
+; card_to_play[5]       ; legal_play  ; 7.573 ; 7.573 ; 7.573 ; 7.573 ;
+; play_pile_top_card[0] ; legal_play  ; 8.591 ; 8.591 ; 8.591 ; 8.591 ;
+; play_pile_top_card[1] ; legal_play  ; 8.319 ; 8.319 ; 8.319 ; 8.319 ;
+; play_pile_top_card[2] ; legal_play  ; 7.748 ; 7.748 ; 7.748 ; 7.748 ;
+; play_pile_top_card[3] ; legal_play  ; 8.328 ; 8.328 ; 8.328 ; 8.328 ;
+; play_pile_top_card[4] ; legal_play  ; 8.439 ; 8.439 ; 8.439 ; 8.439 ;
+; play_pile_top_card[5] ; legal_play  ; 8.149 ; 8.149 ; 8.149 ; 8.149 ;
++-----------------------+-------------+-------+-------+-------+-------+
+
+
++---------------------------------------------------------------------+
+; Minimum Propagation Delay                                           ;
++-----------------------+-------------+-------+-------+-------+-------+
+; Input Port            ; Output Port ; RR    ; RF    ; FR    ; FF    ;
++-----------------------+-------------+-------+-------+-------+-------+
+; card_to_play[0]       ; legal_play  ; 6.460 ; 6.460 ; 6.460 ; 6.460 ;
+; card_to_play[1]       ; legal_play  ; 6.721 ; 6.721 ; 6.721 ; 6.721 ;
+; card_to_play[2]       ; legal_play  ; 6.298 ; 6.298 ; 6.298 ; 6.298 ;
+; card_to_play[3]       ; legal_play  ; 6.346 ; 6.346 ; 6.346 ; 6.346 ;
+; card_to_play[4]       ; legal_play  ; 6.381 ; 6.381 ; 6.381 ; 6.381 ;
+; card_to_play[5]       ; legal_play  ; 5.864 ; 5.864 ; 5.864 ; 5.864 ;
+; play_pile_top_card[0] ; legal_play  ; 7.115 ; 7.115 ; 7.115 ; 7.115 ;
+; play_pile_top_card[1] ; legal_play  ; 6.918 ; 6.918 ; 6.918 ; 6.918 ;
+; play_pile_top_card[2] ; legal_play  ; 6.376 ; 6.376 ; 6.376 ; 6.376 ;
+; play_pile_top_card[3] ; legal_play  ; 6.711 ; 6.711 ; 6.711 ; 6.711 ;
+; play_pile_top_card[4] ; legal_play  ; 6.424 ; 6.424 ; 6.424 ; 6.424 ;
+; play_pile_top_card[5] ; legal_play  ; 6.225 ; 6.225 ; 6.225 ; 6.225 ;
++-----------------------+-------------+-------+-------+-------+-------+
+
+
++----------------------------------------------------------------------------+
+; Multicorner Timing Analysis Summary                                        ;
++------------------+-------+------+----------+---------+---------------------+
+; Clock            ; Setup ; Hold ; Recovery ; Removal ; Minimum Pulse Width ;
++------------------+-------+------+----------+---------+---------------------+
+; Worst-case Slack ; N/A   ; N/A  ; N/A      ; N/A     ; N/A                 ;
+; Design-wide TNS  ; 0.0   ; 0.0  ; 0.0      ; 0.0     ; 0.0                 ;
++------------------+-------+------+----------+---------+---------------------+
+
+
++-------------------------------------------------------------------------+
+; Progagation Delay                                                       ;
++-----------------------+-------------+--------+--------+--------+--------+
+; Input Port            ; Output Port ; RR     ; RF     ; FR     ; FF     ;
++-----------------------+-------------+--------+--------+--------+--------+
+; card_to_play[0]       ; legal_play  ; 17.378 ; 17.378 ; 17.378 ; 17.378 ;
+; card_to_play[1]       ; legal_play  ; 17.942 ; 17.942 ; 17.942 ; 17.942 ;
+; card_to_play[2]       ; legal_play  ; 16.976 ; 16.976 ; 16.976 ; 16.976 ;
+; card_to_play[3]       ; legal_play  ; 16.713 ; 16.713 ; 16.713 ; 16.713 ;
+; card_to_play[4]       ; legal_play  ; 18.173 ; 18.173 ; 18.173 ; 18.173 ;
+; card_to_play[5]       ; legal_play  ; 16.630 ; 16.630 ; 16.630 ; 16.630 ;
+; play_pile_top_card[0] ; legal_play  ; 19.106 ; 19.106 ; 19.106 ; 19.106 ;
+; play_pile_top_card[1] ; legal_play  ; 18.453 ; 18.453 ; 18.453 ; 18.453 ;
+; play_pile_top_card[2] ; legal_play  ; 16.938 ; 16.938 ; 16.938 ; 16.938 ;
+; play_pile_top_card[3] ; legal_play  ; 18.516 ; 18.516 ; 18.516 ; 18.516 ;
+; play_pile_top_card[4] ; legal_play  ; 18.817 ; 18.817 ; 18.817 ; 18.817 ;
+; play_pile_top_card[5] ; legal_play  ; 18.105 ; 18.105 ; 18.105 ; 18.105 ;
++-----------------------+-------------+--------+--------+--------+--------+
+
+
++---------------------------------------------------------------------+
+; Minimum Progagation Delay                                           ;
++-----------------------+-------------+-------+-------+-------+-------+
+; Input Port            ; Output Port ; RR    ; RF    ; FR    ; FF    ;
++-----------------------+-------------+-------+-------+-------+-------+
+; card_to_play[0]       ; legal_play  ; 6.460 ; 6.460 ; 6.460 ; 6.460 ;
+; card_to_play[1]       ; legal_play  ; 6.721 ; 6.721 ; 6.721 ; 6.721 ;
+; card_to_play[2]       ; legal_play  ; 6.298 ; 6.298 ; 6.298 ; 6.298 ;
+; card_to_play[3]       ; legal_play  ; 6.346 ; 6.346 ; 6.346 ; 6.346 ;
+; card_to_play[4]       ; legal_play  ; 6.381 ; 6.381 ; 6.381 ; 6.381 ;
+; card_to_play[5]       ; legal_play  ; 5.864 ; 5.864 ; 5.864 ; 5.864 ;
+; play_pile_top_card[0] ; legal_play  ; 7.115 ; 7.115 ; 7.115 ; 7.115 ;
+; play_pile_top_card[1] ; legal_play  ; 6.918 ; 6.918 ; 6.918 ; 6.918 ;
+; play_pile_top_card[2] ; legal_play  ; 6.376 ; 6.376 ; 6.376 ; 6.376 ;
+; play_pile_top_card[3] ; legal_play  ; 6.711 ; 6.711 ; 6.711 ; 6.711 ;
+; play_pile_top_card[4] ; legal_play  ; 6.424 ; 6.424 ; 6.424 ; 6.424 ;
+; play_pile_top_card[5] ; legal_play  ; 6.225 ; 6.225 ; 6.225 ; 6.225 ;
++-----------------------+-------------+-------+-------+-------+-------+
+
+
+-------------------
+; Clock Transfers ;
+-------------------
+Nothing to report.
+
+
+---------------
+; Report TCCS ;
+---------------
+No dedicated SERDES Transmitter circuitry present in device or used in design
+
+
+---------------
+; Report RSKM ;
+---------------
+No dedicated SERDES Receiver circuitry present in device or used in design
+
+
++------------------------------------------------+
+; Unconstrained Paths                            ;
++---------------------------------+-------+------+
+; Property                        ; Setup ; Hold ;
++---------------------------------+-------+------+
+; Illegal Clocks                  ; 0     ; 0    ;
+; Unconstrained Clocks            ; 0     ; 0    ;
+; Unconstrained Input Ports       ; 12    ; 12   ;
+; Unconstrained Input Port Paths  ; 12    ; 12   ;
+; Unconstrained Output Ports      ; 1     ; 1    ;
+; Unconstrained Output Port Paths ; 12    ; 12   ;
++---------------------------------+-------+------+
+
+
++------------------------------------+
+; TimeQuest Timing Analyzer Messages ;
++------------------------------------+
+Info: *******************************************************************
+Info: Running Quartus II 64-Bit TimeQuest Timing Analyzer
+    Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
+    Info: Processing started: Thu Mar 23 14:56:45 2017
+Info: Command: quartus_sta dsdlab4 -c dsdlab4
+Info: qsta_default_script.tcl version: #1
+Info (20030): Parallel compilation is enabled and will use 6 of the 6 processors detected
+Info (21077): Low junction temperature is 0 degrees C
+Info (21077): High junction temperature is 85 degrees C
+Critical Warning (332012): Synopsys Design Constraints File file not found: 'dsdlab4.sdc'. A Synopsys Design Constraints File is required by the TimeQuest Timing Analyzer to get proper timing constraints. Without it, the Compiler will not properly optimize the design.
+Info (332142): No user constrained base clocks found in the design. Calling "derive_clocks -period 1.0"
+Info (332096): The command derive_clocks did not find any clocks to derive.  No clocks were created or changed.
+Warning (332068): No clocks defined in design.
+Info: Found TIMEQUEST_REPORT_SCRIPT_INCLUDE_DEFAULT_ANALYSIS = ON
+Info (332159): No clocks to report
+Info: Analyzing Slow Model
+Info (332140): No fmax paths to report
+Info (332140): No Setup paths to report
+Info (332140): No Hold paths to report
+Info (332140): No Recovery paths to report
+Info (332140): No Removal paths to report
+Info (332140): No Minimum Pulse Width paths to report
+Info (332001): The selected device family is not supported by the report_metastability command.
+Info: Analyzing Fast Model
+Info (332142): No user constrained base clocks found in the design. Calling "derive_clocks -period 1.0"
+Info (332096): The command derive_clocks did not find any clocks to derive.  No clocks were created or changed.
+Warning (332068): No clocks defined in design.
+Info (332140): No Setup paths to report
+Info (332140): No Hold paths to report
+Info (332140): No Recovery paths to report
+Info (332140): No Removal paths to report
+Info (332140): No Minimum Pulse Width paths to report
+Info (332001): The selected device family is not supported by the report_metastability command.
+Info (332102): Design is not fully constrained for setup requirements
+Info (332102): Design is not fully constrained for hold requirements
+Info: Quartus II 64-Bit TimeQuest Timing Analyzer was successful. 0 errors, 3 warnings
+    Info: Peak virtual memory: 427 megabytes
+    Info: Processing ended: Thu Mar 23 14:56:46 2017
+    Info: Elapsed time: 00:00:01
+    Info: Total CPU time (on all processors): 00:00:01
+
+
